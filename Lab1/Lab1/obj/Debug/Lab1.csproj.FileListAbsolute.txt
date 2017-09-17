@@ -1,0 +1,7 @@
+C:\Users\Andrey\Documents\GitHub\Security-information\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\Andrey\Documents\GitHub\Security-information\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\Andrey\Documents\GitHub\Security-information\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\Andrey\Documents\GitHub\Security-information\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Documents\GitHub\Security-information\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Documents\GitHub\Security-information\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\Andrey\Documents\GitHub\Security-information\Lab1\Lab1\obj\Debug\Lab1.pdb
