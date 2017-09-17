@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Lab1
 {
@@ -26,7 +27,7 @@ namespace Lab1
         /// <param name="path">путь к файлу для шифрования</param>
         public List<string> Encrypt(List<string> text, string key)
         {
-            Console.WriteLine("\n Запуск шифрования");
+            Console.WriteLine("\nЗапуск шифрования");
 
             if (text.Count() == 0)
                 return null;
@@ -48,35 +49,36 @@ namespace Lab1
 
             List<string> encrypted = new List<string>();
             
+            StringBuilder str = new StringBuilder();
             foreach(var item in text)
             {
-                var str = "";
+                str.Clear();
                 for (int i = 0; i < item.Length; i++)
                 {
-                    if (alphabetsMatch.ContainsKey(item[i]) && this.IsLetter(item[i]))
+                    if (alphabetsMatch.ContainsKey(item[i]) && Char.IsLetter(item[i]))
                     {
-                        str += alphabetsMatch[item[i]];
+                        str.Append(alphabetsMatch[item[i]]);
                     }
                     else
-                        str += item[i];
+                        str.Append(item[i]);
                 }
-                encrypted.Add(str);
+                encrypted.Add(str.ToString());
             }
 
             
 
-            Console.WriteLine("\nЗашифрованый текст: ");
-            for(int i = 0; i < encrypted.Count; i++)
-            {
-                Console.WriteLine(encrypted[i]);
-            }
+            //Console.WriteLine("\nЗашифрованый текст: ");
+            //for(int i = 0; i < encrypted.Count; i++)
+            //{
+            //    Console.WriteLine(encrypted[i]);
+            //}
 
             return encrypted;
         }
 
         public List<string> FrequencyHack(List<string> text)
         {
-            Console.WriteLine("\n Запуск атаки через частотный анализ");
+            Console.WriteLine("\nЗапуск атаки через частотный анализ");
 
             if (text.Count() == 0)
                 return null;
@@ -85,30 +87,31 @@ namespace Lab1
 
             var decrypted = new List<string>();
 
+            var str = new StringBuilder();
             foreach (var item in text)
             {
-                var str = "";
+                str.Clear();
                 for (int i = 0; i < item.Length; i++)
                 {
 
-                    if (frencrypt.ContainsKey(item[i]) && this.IsLetter(item[i]))
+                    if (Char.IsLetter(item[i]) && frencrypt.ContainsKey(item[i]))
                     {
                         double val = frencrypt[item[i]];
                         for (int j = 0; j < this._commonFrequencyTable.Count - 1; j++)
                         {
                             var left = this._commonFrequencyTable.ElementAtOrDefault(j);
                             var right = this._commonFrequencyTable.ElementAtOrDefault(j + 1);
-                            if (left.Value < val && right.Value > val)
+                            if (left.Value <= val && right.Value >= val)
                             {
-                                str += ((double)(val - left.Value) < (double)(right.Value - val) ? left.Key : right.Key);
+                                str.Append(((double)(val - left.Value) < (double)(right.Value - val) ? left.Key : right.Key));
                                 break;
                             }
                         }
                     }
                     else
-                        str += item[i];
+                        str.Append(item[i]);
                 }
-                decrypted.Add(str);
+                decrypted.Add(str.ToString());
             }
 
             Console.WriteLine("\nРасшифрованный текст: ");
@@ -127,42 +130,41 @@ namespace Lab1
                 return 0;
             int miss;
 
-            var textACopy = textA.ToList();
-            var textBCopy = textB.ToList();
 
-            if(ignoreSpecialSymbols)
-            {
-                textACopy.ForEach(a => a = string.Concat(a.Where(b => this.IsLetter(b))));
-                textBCopy.ForEach(a => a = string.Concat(a.Where(b => this.IsLetter(b))));
-            }
-
-            if (textACopy.Count > textBCopy.Count)
-                miss = textACopy.Skip(textBCopy.Count - 1).Sum(a => a.Length);
-            else if (textACopy.Count < textBCopy.Count)
-                miss = textBCopy.Skip(textACopy.Count - 1).Sum(a => a.Length);
+            if (textA.Count > textB.Count)
+                miss = ignoreSpecialSymbols ? textA.Skip(textB.Count - 1).Sum(a => a.Sum(b => Char.IsLetter(b) ? 1 : 0)) : textA.Skip(textB.Count - 1).Sum(a => a.Length);
+            else if (textA.Count < textB.Count)
+                miss = ignoreSpecialSymbols ? textB.Skip(textA.Count - 1).Sum(a => a.Sum(b => Char.IsLetter(b) ? 1 : 0)) : textB.Skip(textA.Count - 1).Sum(a => a.Length);
             else
                 miss = 0;
 
-            for(int i = 0; i < textACopy.Count && i < textBCopy.Count; i++)
+            for(int i = 0; i < textA.Count && i < textB.Count; i++)
             {
-                var left = textACopy[i];
-                var right = textBCopy[i];
+                var left = textA[i];
+                var right = textB[i];
 
                 if (left.Length > right.Length)
                     miss += left.Length - right.Length;
                 else if (left.Length < right.Length)
                     miss += right.Length - left.Length;
-
-                for (int j = 0; j < left.Length && j < right.Length; j++)
-                {
-                    if (left[j] != right[j])
-                        miss++;
-                }
+                if(ignoreSpecialSymbols)
+                    for (int j = 0; j < left.Length && j < right.Length; j++)
+                    {
+                        if (left[j] != right[j] && Char.IsLetter(left[j]) && Char.IsLetter(right[j]))
+                            miss++;
+                    }
+                else
+                    for (int j = 0; j < left.Length && j < right.Length; j++)
+                    {
+                        if (left[j] != right[j])
+                            miss++;
+                    }
             }
             if (miss == 0)
                 return 100;
+            int total = ignoreSpecialSymbols ? Math.Max(textA.Sum(a => a.Sum(b => Char.IsLetter(b) ? 1 : 0)), textB.Sum(a => a.Sum(b => Char.IsLetter(b) ? 1 : 0))) : Math.Max(textA.Sum(a => a.Length), textB.Sum(a => a.Length));
 
-            return (double)miss * 100 / Math.Max(textACopy.Count, textBCopy.Count);
+            return (double)miss * 100 / total;
         }
 
 
@@ -174,7 +176,7 @@ namespace Lab1
         /// <returns></returns>
         public List<string> Decrypt(List<string> text, string key)
         {
-            Console.WriteLine("\n Запуск дешифровки");
+            Console.WriteLine("\nЗапуск дешифровки");
 
             if (text.Count() == 0)
                 return null;
@@ -197,34 +199,30 @@ namespace Lab1
 
             var result = new List<string>();
 
+            var buf = new StringBuilder();
             for(int i = 0; i < text.Count; i++)
             {
+                buf.Clear();
                 var current = text[i];
-                var buf = "";
                 for (int j = 0; j < current.Length; j++) {
                     var item = alphabetsMatch.FirstOrDefault(a => a.Value == current[j]);
-                    if (this.IsLetter(current[j]) && !item.Equals(default(KeyValuePair<char, char>)))
-                        buf += item.Key;
+                    if (Char.IsLetter(current[j]) && !item.Equals(default(KeyValuePair<char, char>)))
+                        buf.Append(item.Key);
                     else
-                        buf += current[j];
+                        buf.Append(current[j]);
                 }
-                result.Add(buf);
+                result.Add(buf.ToString());
             }
 
-            Console.WriteLine("\nРасшифрованный текст: ");
-            for (int i = 0; i < result.Count; i++)
-            {
-                Console.WriteLine(result[i]);
-            }
+            //Console.WriteLine("\nРасшифрованный текст: ");
+            //for (int i = 0; i < result.Count; i++)
+            //{
+            //    Console.WriteLine(result[i]);
+            //}
 
             return result;
         }
 
-
-        private bool IsLetter(char c)
-        {
-            return ('A' <= c && 'z' >= c) || ('А' <= c && 'я' >= c);
-        }
 
         /// <summary>
         /// Возвращает частотную таблицу для текста
@@ -243,12 +241,12 @@ namespace Lab1
                     var str = text[i];
                     for (int j = 0; j < str.Length; j++)
                     {
-                        if (!this.IsLetter(str[j]))
+                        if (!Char.IsLetter(str[j]))
                             continue;
                         if (count.ContainsKey(str[j]))
                             count[str[j]]++;
                         else
-                            count.Add(str[j], 0);
+                            count.Add(str[j], 1);
                     }
                 }
             else
@@ -260,7 +258,7 @@ namespace Lab1
                         if (count.ContainsKey(str[j]))
                             count[str[j]]++;
                         else
-                            count.Add(str[j], 0);
+                            count.Add(str[j], 1);
                     }
                 }
 

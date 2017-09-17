@@ -31,9 +31,9 @@ namespace Lab1
 
             var encrypted = coder.Encrypt(text.ToList(), "лаба");
             var decrypted = coder.Decrypt(encrypted, "лаба");
-            Console.WriteLine($"\nПроцент соответствия: {coder.GetPercentCompliance(encrypted, decrypted)}%");
+            Console.WriteLine($"\nПроцент соответствия: {coder.GetPercentCompliance(encrypted, decrypted, true)}%");
             var hacked = coder.FrequencyHack(encrypted);
-            Console.WriteLine($"\nПроцент соответствия: {coder.GetPercentCompliance(decrypted, hacked)}%");
+            Console.WriteLine($"\nПроцент соответствия: {coder.GetPercentCompliance(decrypted, hacked, true)}%");
         }
 
         private string GetFileName(string message)
