@@ -5,29 +5,35 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Text.RegularExpressions;
+using System.Net;
 
-namespace Lab1
+namespace Coder
 {
     class Coder
     {
         private Dictionary<char, double> _commonFrequencyTable;
+        private Random rand;
+        private StringBuilder logger;
 
         /// <summary>
         /// создает кодировщик
         /// </summary>
         public Coder()
         {
+            logger = new StringBuilder();
             this.LoadFavoriteFrequencyTable("..//..//tolstoy.txt");
         }
 
 
         /// <summary>
-        /// шифрует файл методом замены с использованием кодового слова
+        /// шифрует текст методом замены с использованием кодового слова
         /// </summary>
-        /// <param name="path">путь к файлу для шифрования</param>
-        public List<string> Encrypt(List<string> text, string key)
+        /// <param name="text"></param>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public List<string> EncryptReplacementWithCodeWord(List<string> text, string key)
         {
-            Console.WriteLine("\nЗапуск шифрования");
+            WriteLineToConsoleAndLog("\nЗапуск шифрования методом простой замены с использованием кодового слова");
 
             if (text.Count() == 0)
                 return null;
@@ -36,7 +42,7 @@ namespace Lab1
                 alphabet += i;
 
 
-            Console.WriteLine("ключ для шифрования: " + key);
+            WriteLineToConsoleAndLog("ключ для шифрования: " + key);
 
             string keyalphabet = key + string.Concat(alphabet.Where(a => !key.Contains(a)));
             
@@ -65,20 +71,18 @@ namespace Lab1
                 encrypted.Add(str.ToString());
             }
 
-            
-
-            //Console.WriteLine("\nЗашифрованый текст: ");
-            //for(int i = 0; i < encrypted.Count; i++)
-            //{
-            //    Console.WriteLine(encrypted[i]);
-            //}
-
             return encrypted;
         }
 
+
+        /// <summary>
+        /// Взлом шифра методом частотного анализа
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
         public List<string> FrequencyHack(List<string> text)
         {
-            Console.WriteLine("\nЗапуск атаки через частотный анализ");
+            WriteLineToConsoleAndLog("\nЗапуск атаки через частотный анализ");
 
             if (text.Count() == 0)
                 return null;
@@ -114,16 +118,23 @@ namespace Lab1
                 decrypted.Add(str.ToString());
             }
 
-            Console.WriteLine("\nРасшифрованный текст: ");
+            WriteLineToConsoleAndLog("\nРасшифрованный текст: ");
             for (int i = 0; i < decrypted.Count; i++)
             {
-                Console.WriteLine(decrypted[i]);
+                WriteLineToConsoleAndLog(decrypted[i]);
             }
 
             return decrypted;
         }
 
 
+        /// <summary>
+        /// Возвращает процент совпадения двух текстов
+        /// </summary>
+        /// <param name="textA"></param>
+        /// <param name="textB"></param>
+        /// <param name="ignoreSpecialSymbols">учитывать ли спец. символы</param>
+        /// <returns></returns>
         public double GetPercentCompliance(List<string> textA, List<string> textB, bool ignoreSpecialSymbols = false)
         {
             if (textA.Count == 0 || textB.Count == 0)
@@ -164,7 +175,7 @@ namespace Lab1
                 return 100;
             int total = ignoreSpecialSymbols ? Math.Max(textA.Sum(a => a.Sum(b => Char.IsLetter(b) ? 1 : 0)), textB.Sum(a => a.Sum(b => Char.IsLetter(b) ? 1 : 0))) : Math.Max(textA.Sum(a => a.Length), textB.Sum(a => a.Length));
 
-            return (double)miss * 100 / total;
+            return 100 - (double)miss * 100 / total;
         }
 
 
@@ -174,9 +185,9 @@ namespace Lab1
         /// <param name="path"></param>
         /// <param name="key"></param>
         /// <returns></returns>
-        public List<string> Decrypt(List<string> text, string key)
+        public List<string> DecryptReplacementWithCodeWord(List<string> text, string key)
         {
-            Console.WriteLine("\nЗапуск дешифровки");
+            WriteLineToConsoleAndLog("\nЗапуск дешифровки по ключу");
 
             if (text.Count() == 0)
                 return null;
@@ -186,7 +197,7 @@ namespace Lab1
                 alphabet += i;
 
 
-            Console.WriteLine("ключ для дешифрования: " + key);
+            WriteLineToConsoleAndLog("ключ для дешифрования: " + key);
 
             string keyalphabet = key + string.Concat(alphabet.Where(a => !key.Contains(a)));
 
@@ -214,14 +225,10 @@ namespace Lab1
                 result.Add(buf.ToString());
             }
 
-            //Console.WriteLine("\nРасшифрованный текст: ");
-            //for (int i = 0; i < result.Count; i++)
-            //{
-            //    Console.WriteLine(result[i]);
-            //}
-
             return result;
         }
+
+      
 
 
         /// <summary>
@@ -278,7 +285,107 @@ namespace Lab1
         private void LoadFavoriteFrequencyTable(string path)
         {
             var text = File.ReadAllLines(path,Encoding.UTF8);
+
             this._commonFrequencyTable = this.GetFrequencyTable(text.ToList(), true).OrderBy(a => a.Value).ToDictionary(a => a.Key, a => a.Value);
+        }
+
+        /// <summary>
+        /// Шифрует текст методом одноразового блокнота.
+        /// В качестве ключа используется случайная последовательность букв (utf8)
+        /// </summary>
+        /// <param name="text">исходный текст</param>
+        /// <returns>Кортеж(зашифрованный текст, ключ)</returns>
+        public Tuple<List<string>,List<string>> EncryptOneTimeNotepad(List<string> text)
+        {
+            WriteLineToConsoleAndLog("\nЗапуск шифрования методом одноразового блокнота");
+            if (rand == null)
+                rand = new Random();
+            var key = new List<string>();
+
+            StringBuilder buf = new StringBuilder();
+
+            for (int i = 0; i < text.Count; i++)
+            {
+                for (int j = 0; j < text[i].Length; j++)
+                {
+                    buf.Append(Encoding.Unicode.GetString(BitConverter.GetBytes(rand.Next() % rand.Next())));
+                }
+                
+                key.Add(buf.ToString());
+                buf.Clear();
+            }
+
+            WriteLineToConsoleAndLog("\nКлюч: ");
+            for (int i = 0; i < key.Count; i++)
+                WriteLineToConsoleAndLog(key[i]);
+
+            var result = new List<string>(text.Count);
+            for (int i = 0; i < text.Count; i++)
+            {
+                for (int j = 0; j < text[i].Length; j++)
+                    buf.Append(BitConverter.ToChar(BitConverter.GetBytes(text[i][j] ^ key[i][j]), 0));
+                result.Add(buf.ToString());
+                buf.Clear();
+            }
+
+            return new Tuple<List<string>, List<string>>(result, key);
+        }
+
+        /// <summary>
+        /// Дешифрует текст, зашифрованный методом одноразового блокнота
+        /// </summary>
+        /// <param name="text"></param>
+        /// <param name="key"></param>
+        /// <returns></returns>
+        public List<string> DecryptOneTimeNotepad(List<string> text, List<string> key)
+        {
+            WriteLineToConsoleAndLog("\nЗапуск дешифрования методом одноразового блокнота");
+            StringBuilder buf = new StringBuilder();
+            var result = new List<string>(text.Count);
+            for (int i = 0; i < text.Count; i++)
+            {
+                for (int j = 0; j < text[i].Length; j++)
+                    buf.Append(BitConverter.ToChar(BitConverter.GetBytes(text[i][j] ^ key[i][j]), 0));
+                result.Add(buf.ToString());
+                buf.Clear();
+            }
+
+            WriteLineToConsoleAndLog("\nРасшифрованный текст: ");
+            for (int i = 0; i < result.Count; i++)
+                WriteLineToConsoleAndLog(result[i]);
+            return result;
+        }
+
+        /// <summary>
+        /// Сохраняет лог кодировщика
+        /// </summary>
+        /// <param name="path">путь к каталогу </param>
+        /// <param name="filename">имя файла</param>
+        public void SaveLog(string path, string filename = null)
+        {
+            Directory.CreateDirectory(path);
+            using (var stream = new StreamWriter(File.Create(path + (filename ?? "log") + ".txt"),Encoding.Unicode))
+            {
+                stream.WriteLine(logger.ToString());
+                stream.Flush();
+            }
+        }
+
+        public void WriteLineToConsoleAndLog(string value)
+        {
+            Console.WriteLine(value);
+            logger.Append(value);
+        }
+
+        public void WriteToConsoleAndLog(string value)
+        {
+            Console.Write(value);
+            logger.Append(value);
+        }
+
+        public void AddToLog(string value)
+        {
+            logger.Append(value);
         }
 
     };

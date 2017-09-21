@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Coder</name>
+    </assembly>
+    <members>
+        <member name="M:Coder.Coder.#ctor">
+            <summary>
+            создает кодировщик
+            </summary>
+        </member>
+        <member name="M:Coder.Coder.EncryptReplacementWithCodeWord(System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            шифрует текст методом замены с использованием кодового слова
+            </summary>
+            <param name="text"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Coder.Coder.FrequencyHack(System.Collections.Generic.List{System.String})">
+            <summary>
+            Взлом шифра методом частотного анализа
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Coder.Coder.GetPercentCompliance(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Boolean)">
+            <summary>
+            Возвращает процент совпадения двух текстов
+            </summary>
+            <param name="textA"></param>
+            <param name="textB"></param>
+            <param name="ignoreSpecialSymbols">учитывать ли спец. символы</param>
+            <returns></returns>
+        </member>
+        <member name="M:Coder.Coder.DecryptReplacementWithCodeWord(System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            Дешифрует файл, зашифрованный методом простой замены по ключу
+            </summary>
+            <param name="path"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Coder.Coder.GetFrequencyTable(System.Collections.Generic.IList{System.String},System.Boolean)">
+            <summary>
+            Возвращает частотную таблицу для текста
+            </summary>
+            <param name="text"></param>
+            <param name="ignoreSigns">игнорировать знаки препинания и спец. символы, по умолчанию учитывает все символы</param>
+            <returns></returns>
+        </member>
+        <member name="M:Coder.Coder.LoadFavoriteFrequencyTable(System.String)">
+            <summary>
+            Создает эталонную таблицу частот букв
+            </summary>
+            <param name="path">имя файла - эталона </param>
+        </member>
+        <member name="M:Coder.Coder.EncryptOneTimeNotepad(System.Collections.Generic.List{System.String})">
+            <summary>
+            Шифрует текст методом одноразового блокнота.
+            В качестве ключа используется случайная последовательность букв (utf8)
+            </summary>
+            <param name="text">исходный текст</param>
+            <returns>Кортеж(зашифрованный текст, ключ)</returns>
+        </member>
+        <member name="M:Coder.Coder.DecryptOneTimeNotepad(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Дешифрует текст, зашифрованный методом одноразового блокнота
+            </summary>
+            <param name="text"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Coder.Coder.SaveLog(System.String,System.String)">
+            <summary>
+            Сохраняет лог кодировщика
+            </summary>
+            <param name="path">путь к каталогу </param>
+            <param name="filename">имя файла</param>
+        </member>
+    </members>
+</doc>
