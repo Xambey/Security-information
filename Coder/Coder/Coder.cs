@@ -12,7 +12,7 @@ namespace Coder
     class Coder
     {
         private Dictionary<char, double> _commonFrequencyTable;
-        private Random rand;
+        private NormalRandom rand;
         private StringBuilder logger;
 
         /// <summary>
@@ -299,7 +299,7 @@ namespace Coder
         {
             WriteLineToConsoleAndLog("\nЗапуск шифрования методом одноразового блокнота");
             if (rand == null)
-                rand = new Random();
+                rand = new NormalRandom();
             var key = new List<string>();
 
             StringBuilder buf = new StringBuilder();
@@ -308,7 +308,7 @@ namespace Coder
             {
                 for (int j = 0; j < text[i].Length; j++)
                 {
-                    buf.Append(Encoding.Unicode.GetString(BitConverter.GetBytes(rand.Next() % rand.Next())));
+                    buf.Append(Encoding.Unicode.GetString(BitConverter.GetBytes(rand.Next())));
                 }
                 
                 key.Add(buf.ToString());
