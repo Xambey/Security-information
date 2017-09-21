@@ -37,7 +37,7 @@
             <summary>
             Дешифрует файл, зашифрованный методом простой замены по ключу
             </summary>
-            <param name="path"></param>
+            <param name="text"></param>
             <param name="key"></param>
             <returns></returns>
         </member>

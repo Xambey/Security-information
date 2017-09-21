@@ -12,7 +12,7 @@ namespace Coder
     class Coder
     {
         private Dictionary<char, double> _commonFrequencyTable;
-        private Random rand;
+        private NormalRandom rand;
         private StringBuilder logger;
 
         /// <summary>
@@ -161,13 +161,13 @@ namespace Coder
                 if(ignoreSpecialSymbols)
                     for (int j = 0; j < left.Length && j < right.Length; j++)
                     {
-                        if (left[j] != right[j] && Char.IsLetter(left[j]) && Char.IsLetter(right[j]))
+                        if (!Char.Equals(left[j], right[j]) && Char.IsLetter(left[j]) && Char.IsLetter(right[j]))
                             miss++;
                     }
                 else
                     for (int j = 0; j < left.Length && j < right.Length; j++)
                     {
-                        if (left[j] != right[j])
+                        if (!Char.Equals(left[j], right[j]))
                             miss++;
                     }
             }
@@ -182,7 +182,7 @@ namespace Coder
         /// <summary>
         /// Дешифрует файл, зашифрованный методом простой замены по ключу
         /// </summary>
-        /// <param name="path"></param>
+        /// <param name="text"></param>
         /// <param name="key"></param>
         /// <returns></returns>
         public List<string> DecryptReplacementWithCodeWord(List<string> text, string key)
@@ -299,7 +299,7 @@ namespace Coder
         {
             WriteLineToConsoleAndLog("\nЗапуск шифрования методом одноразового блокнота");
             if (rand == null)
-                rand = new Random();
+                rand = new NormalRandom();
             var key = new List<string>();
 
             StringBuilder buf = new StringBuilder();
@@ -308,7 +308,7 @@ namespace Coder
             {
                 for (int j = 0; j < text[i].Length; j++)
                 {
-                    buf.Append(Encoding.Unicode.GetString(BitConverter.GetBytes(rand.Next() % rand.Next())));
+                    buf.Append(Encoding.Unicode.GetString(BitConverter.GetBytes(rand.Next())));
                 }
                 
                 key.Add(buf.ToString());
