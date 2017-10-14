@@ -10,8 +10,13 @@ using System.Net;
 namespace Coder
 {
     class Coder
-    {
+    { 
+
         private Dictionary<char, double> _commonFrequencyTable;
+        private Dictionary<string, double> _commonBigrameFrequencyTable;
+        private Dictionary<string, double> _commonThreegrameFrequencyTable;
+        private Dictionary<string, double> _commonFourgrameFrequencyTable;
+
         private NormalRandom rand;
         private StringBuilder logger;
 
@@ -80,9 +85,9 @@ namespace Coder
         /// </summary>
         /// <param name="text"></param>
         /// <returns></returns>
-        public List<string> FrequencyHack(List<string> text)
+        public List<string> SimpleFrequencyHack(List<string> text)
         {
-            WriteLineToConsoleAndLog("\nЗапуск атаки через частотный анализ");
+            WriteLineToConsoleAndLog("\nЗапуск атаки через Простой частотный анализ");
 
             if (text.Count() == 0)
                 return null;
@@ -116,7 +121,7 @@ namespace Coder
                         str.Append(item[i]);
                 }
                 decrypted.Add(str.ToString());
-            }
+               }   
 
             WriteLineToConsoleAndLog("\nРасшифрованный текст: ");
             for (int i = 0; i < decrypted.Count; i++)
@@ -125,6 +130,120 @@ namespace Coder
             }
 
             return decrypted;
+        }
+
+        public List<string> HardFrequencyHack(List<string> text)
+        {
+            var alphabetBigrams = new Dictionary<string, string>();
+
+            //сбор gramm зашифрованного текста
+            var bigrams = this.GetFrequencyGramsTable(text, Grame.Two).OrderBy(a => a.Value).ToDictionary(a=> a.Key, a=> a.Value);
+            var threegrams = this.GetFrequencyGramsTable(text, Grame.Three).OrderBy(a => a.Value).ToDictionary(a => a.Key, a => a.Value);
+            var fourgrams = this.GetFrequencyGramsTable(text, Grame.Four).OrderBy(a => a.Value).ToDictionary(a => a.Key, a => a.Value);
+
+            //заполнение алфавита биграммами
+            for (int i = 0; i < bigrams.Count; i++)
+            {
+                for(int j = 0; j < this._commonBigrameFrequencyTable.Count - 1; j++)
+                {
+                    var bi = bigrams.ElementAt(i);
+                    var left = this._commonBigrameFrequencyTable.ElementAt(j);
+                    var right = this._commonBigrameFrequencyTable.ElementAt(j + 1);
+                    if (left.Value <= bi.Value && bi.Value <= right.Value) {
+                        var a = bi.Value - left.Value;
+                        var b = right.Value - bi.Value;
+                        alphabetBigrams.Add(bi.Key, a < b ? left.Key : right.Key);  
+                    }
+                }
+            }
+
+            var alphabetThreegrams = new Dictionary<string, string>();
+            //заполнение алфавита триграммами
+            for (int i = 0; i < threegrams.Count; i++)
+            {
+                for (int j = 0; j < this._commonThreegrameFrequencyTable.Count - 1; j++)
+                {
+                    var bi = threegrams.ElementAt(i);
+                    var left = this._commonThreegrameFrequencyTable.ElementAt(j);
+                    var right = this._commonThreegrameFrequencyTable.ElementAt(j + 1);
+                    if (left.Value <= bi.Value && bi.Value <= right.Value)
+                    {
+                        var a = bi.Value - left.Value;
+                        var b = right.Value - bi.Value;
+                        alphabetThreegrams.Add(bi.Key, a < b ? left.Key : right.Key);
+                    }
+                }
+            }
+
+            var alphabetFourgrams = new Dictionary<string, string>();
+            //заполнение алфавита четырехграмм
+            for (int i = 0; i < fourgrams.Count; i++)
+            {
+                for (int j = 0; j < this._commonFourgrameFrequencyTable.Count - 1; j++)
+                {
+                    var bi = fourgrams.ElementAt(i);
+                    var left = this._commonFourgrameFrequencyTable.ElementAt(j);
+                    var right = this._commonFourgrameFrequencyTable.ElementAt(j + 1);
+                    if (left.Value <= bi.Value && bi.Value <= right.Value)
+                    {
+                        var a = bi.Value - left.Value;
+                        var b = right.Value - bi.Value;
+                        alphabetFourgrams.Add(bi.Key, a < b ? left.Key : right.Key);
+                    }
+                }
+            }
+
+            
+
+            var words = new List<string>();
+            var decryptedWords = new List<string>();
+
+            //составляем список строк
+            for(int i = 0; i < text.Count; i++)
+            {
+                var row = Regex.Matches(text[i], $"[A-Za-zА-Яа-я]+").OfType<Match>().Select(m => m.Groups[0].Value).ToArray();
+                foreach (var item in row)
+                {
+                    if (!words.Contains(item))
+                        words.Add(item);
+                }
+            }
+
+            var buf = new StringBuilder();
+
+            //Дешифровка
+            foreach (var item in words)
+            {
+                if (item.Length > 2)
+                {
+                    int n = item.Length / 2;
+                    int i = 0;
+                    buf.Clear();
+                    for (int j = 0; j < n; j++, i++)
+                    {
+                        var t = item[i].ToString() + item[i + 1];
+                        if (alphabetBigrams.ContainsKey(t))
+                            buf.Append(alphabetBigrams[t]);
+                        else
+                            buf.Append(item[i] + item[i + 1]);
+                    }
+                    decryptedWords.Add(buf.ToString());
+                }
+                else
+                    decryptedWords.Add(item);
+            }
+
+            var result = new List<string>(text);
+
+            for(int i = 0; i < words.Count; i++)
+            {
+                for(int j = 0; j < text.Count; j++)
+                {
+                    result[j] = text[j].Replace(words[i], decryptedWords[i]);
+                }
+            }
+
+            return result;
         }
 
 
@@ -164,7 +283,7 @@ namespace Coder
                         if (!Char.Equals(left[j], right[j]) && Char.IsLetter(left[j]) && Char.IsLetter(right[j]))
                             miss++;
                     }
-                else
+                else 
                     for (int j = 0; j < left.Length && j < right.Length; j++)
                     {
                         if (!Char.Equals(left[j], right[j]))
@@ -228,8 +347,76 @@ namespace Coder
             return result;
         }
 
-      
+        private Dictionary<string, double> GetFrequencyGramsTable(IList<string> text, Grame gram)
+        {
+            Dictionary<string, double> res = new Dictionary<string, double>();
 
+            switch (gram)
+            {
+                case Grame.Two:
+                    for (int i = 0; i < text.Count; i++)
+                    {
+                        var row = text[i];
+                        for (int j = 0; j < row.Length - 1; j++)
+                        {
+                            if (Char.IsLetter(row[j]) && Char.IsLetter(row[j + 1]))
+                            {
+                                string key = row[j].ToString() + row[j + 1];
+                                var obj = res.FirstOrDefault(a => a.Key == key);
+                                if (Object.Equals(obj, default(KeyValuePair<string, double>)))
+                                    res.Add(key, 1);
+                                else
+                                    res[key]++;
+                            }
+
+                        }
+                    }
+                    break;
+                case Grame.Three:
+                    for (int i = 0; i < text.Count; i++)
+                    {
+                        var row = text[i];
+                        for (int j = 0; j < row.Length - 2; j++)
+                        {
+                            if (Char.IsLetter(row[j]) && Char.IsLetter(row[j + 1]) && Char.IsLetter(row[j+2]))
+                            {
+                                string key = row[j].ToString() + row[j + 1] + row[j + 2];
+                                var obj = res.FirstOrDefault(a => a.Key == key);
+                                if (Object.Equals(obj, default(KeyValuePair<string, double>)))
+                                    res.Add(key, 1);
+                                else
+                                    res[key]++;
+                            }
+
+                        }
+                    }
+                    break;
+                case Grame.Four:
+                    for (int i = 0; i < text.Count; i++)
+                    {
+                        var row = text[i];
+                        for (int j = 0; j < row.Length - 3; j++)
+                        {
+                            if (Char.IsLetter(row[j]) && Char.IsLetter(row[j + 1]) && Char.IsLetter(row[j + 2]) && Char.IsLetter(row[j + 3]))
+                            {
+                                string key = row[j].ToString() + row[j + 1] + row[j + 2] + row[j + 3];
+                                var obj = res.FirstOrDefault(a => a.Key == key);
+                                if (Object.Equals(obj, default(KeyValuePair<string, double>)))
+                                    res.Add(key, 1);
+                                else
+                                    res[key]++;
+                            }
+
+                        }
+                    }
+                    break;
+            }
+
+            var count = res.Sum(a => a.Value);
+
+            res = res.ToDictionary(a => a.Key, a => a.Value * 100 / count);
+            return res;
+        }
 
         /// <summary>
         /// Возвращает частотную таблицу для текста
@@ -284,9 +471,14 @@ namespace Coder
         /// <param name="path">имя файла - эталона </param>
         private void LoadFavoriteFrequencyTable(string path)
         {
-            var text = File.ReadAllLines(path,Encoding.UTF8);
+            var text = File.ReadAllLines(path,Encoding.UTF8).ToList();
 
-            this._commonFrequencyTable = this.GetFrequencyTable(text.ToList(), true).OrderBy(a => a.Value).ToDictionary(a => a.Key, a => a.Value);
+
+            this._commonBigrameFrequencyTable = this.GetFrequencyGramsTable(text, Grame.Two).OrderBy(a => a.Value).ToDictionary(a => a.Key, a => a.Value); 
+            this._commonThreegrameFrequencyTable = this.GetFrequencyGramsTable(text, Grame.Three).OrderBy(a => a.Value).ToDictionary(a => a.Key, a => a.Value);
+            this._commonFourgrameFrequencyTable = this.GetFrequencyGramsTable(text, Grame.Four).OrderBy(a => a.Value).ToDictionary(a => a.Key, a => a.Value);
+
+            this._commonFrequencyTable = this.GetFrequencyTable(text, true).OrderBy(a => a.Value).ToDictionary(a => a.Key, a => a.Value);
         }
 
         /// <summary>

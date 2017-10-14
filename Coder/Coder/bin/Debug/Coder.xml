@@ -17,7 +17,7 @@
             <param name="key"></param>
             <returns></returns>
         </member>
-        <member name="M:Coder.Coder.FrequencyHack(System.Collections.Generic.List{System.String})">
+        <member name="M:Coder.Coder.SimpleFrequencyHack(System.Collections.Generic.List{System.String})">
             <summary>
             Взлом шифра методом частотного анализа
             </summary>

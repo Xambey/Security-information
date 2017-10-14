@@ -25,14 +25,16 @@ namespace Coder
             var decrypted = coder.DecryptReplacementWithCodeWord(encrypted, "лаба");
 
             coder.WriteLineToConsoleAndLog($"\nПроцент соответствия: {Math.Round(coder.GetPercentCompliance(text, decrypted, true))}%");
-            var hacked = coder.FrequencyHack(encrypted);
-            coder.WriteLineToConsoleAndLog($"\nПроцент соответствия: {Math.Round(coder.GetPercentCompliance(text, hacked, true))}%");
+            var hacked = coder.SimpleFrequencyHack(encrypted);
+            coder.WriteLineToConsoleAndLog($"\nПроцент соответствия(simple) {Math.Round(coder.GetPercentCompliance(text, hacked, true))}%");
+            //hacked = coder.HardFrequencyHack(encrypted);
+            //coder.WriteLineToConsoleAndLog($"\nПроцент соответствия(hard) {Math.Round(coder.GetPercentCompliance(text, hacked, true))}%");
 
             var t = coder.EncryptOneTimeNotepad(text);
             decrypted = coder.DecryptOneTimeNotepad(t.Item1, t.Item2);
             coder.WriteLineToConsoleAndLog($"\nПроцент соответствия: {Math.Round(coder.GetPercentCompliance(text, decrypted, true))}%");
 
-            hacked = coder.FrequencyHack(t.Item1);
+            hacked = coder.SimpleFrequencyHack(t.Item1);
             coder.WriteLineToConsoleAndLog($"\nПроцент соответствия: {Math.Round(coder.GetPercentCompliance(text, hacked, true))}%");
 
             coder.SaveLog("../../");
