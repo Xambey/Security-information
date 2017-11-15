@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientCreationFailException.cs" />
     <Compile Include="Coder.cs" />
+    <Compile Include="DiffiHelmanClient.cs" />
     <Compile Include="Grame.cs" />
     <Compile Include="NormalRandom.cs" />
     <Compile Include="Program.cs" />

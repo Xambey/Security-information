@@ -13,6 +13,18 @@ namespace Coder
     {
         static void Main(string[] args)
         {
+            DiffiHelmanClient anna = new DiffiHelmanClient("Anna");
+            DiffiHelmanClient bob = new DiffiHelmanClient("Bob");
+
+            var p = anna.GenerateNumberP();
+            var g = anna.GenerateNumberG();
+            var a = anna.GeneratePublicKey();
+
+            anna.SendBroadcastMessage(anna.Name, $"key={a} p={p} g={g}");
+            bob.SendBroadcastMessage(bob.Name, "привeт анна！", true);
+            anna.SendBroadcastMessage(anna.Name, "и тeбe привeт, боб！", true);
+
+            Console.ReadLine();
 
             Coder coder = new Coder();
 
