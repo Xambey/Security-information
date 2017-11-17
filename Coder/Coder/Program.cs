@@ -13,16 +13,38 @@ namespace Coder
     {
         static void Main(string[] args)
         {
-            DiffiHelmanClient anna = new DiffiHelmanClient("Anna");
-            DiffiHelmanClient bob = new DiffiHelmanClient("Bob");
+            Console.OutputEncoding = Encoding.UTF8;
+            
+            long g = 0, p = 0;
+            long aa = 0;
+            long ba = 0;
+            var anna = new DiffiHelmanClient("Aнна");
+            var bob = new DiffiHelmanClient("Боб");
+            while (true)
+            {
+                try
+                {
+                    p = anna.GenerateNumberP();
+                    g = anna.GenerateNumberG();
 
-            var p = anna.GenerateNumberP();
-            var g = anna.GenerateNumberG();
-            var a = anna.GeneratePublicKey();
-
-            anna.SendBroadcastMessage(anna.Name, $"key={a} p={p} g={g}");
-            bob.SendBroadcastMessage(bob.Name, "привeт анна！", true);
+                    aa = anna.GeneratePublicKey();
+                    break;
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            anna.SendBroadcastMessage(anna.Name, $"key={aa} p={p} g={g}");
+            
+            ba = bob.GeneratePublicKey(); // Боб теперь знает p и g
+            //обмен ключами
+            bob.SendBroadcastMessage(bob.Name, $"key={ba}");
+            
+            Console.WriteLine("\nОбщение начинается!");
+            
             anna.SendBroadcastMessage(anna.Name, "и тeбe привeт, боб！", true);
+            bob.SendBroadcastMessage(bob.Name, "Ну привет, говнокод Анна", true);
 
             Console.ReadLine();
 

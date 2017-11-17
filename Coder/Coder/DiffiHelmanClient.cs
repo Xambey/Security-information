@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -9,14 +10,14 @@ namespace Coder
     {
         private static Random generator = new Random();
         public string Name { get; }
-        private long p = -1;
-        private long g = -1;
-        private long key = -1;
-        private long commonKey = -1;
+        private int p = -1;
+        private int g = -1;
+        private int key = -1;
+        private int commonKey = -1;
+        private int secretKey = -1;
 
         //Ключи клиентов в сети, по имени
-        //private Dictionary<string, int> clientsKeys = new Dictionary<string, int>();
-        private long otherPublicKey = -1;
+        private int otherPublicKey = -1;
 
         //пулл клиентов
         private static Dictionary<string, DiffiHelmanClient> poolClients = new Dictionary<string, DiffiHelmanClient>();
@@ -50,28 +51,59 @@ namespace Coder
                 throw new ClientCreationFailException(this.Name, "Попытка сгенерировать открытый ключ без сгенерированного простого числа p");
             if (this.g == -1)
                 throw new ClientCreationFailException(this.Name, "Попытка сгенерировать открытый ключ без сгенерированного простого числа g");
-            this.key = generator.Next(1, int.MaxValue);
-            var pKey = (long) Math.Pow(this.g, this.key) % this.p;
-            return pKey;
+            
+            
+            //генерируем публичный ключ
+            do
+            {
+                //генерируем личный ключ
+                this.key = generator.Next(3, 100);
+                this.commonKey = (int)(Math.Pow(this.g, this.key)) % this.p;
+            } while (this.commonKey == 1 && this.commonKey == 0);
+            return this.commonKey;
         }
 
         public long GenerateNumberP()
         {
             //do
             //{
-                this.p = GenerateSimpleNumber(64, 2);
+            this.p = GenerateSimpleNumber(1000);
             //} while (!IsSimpleNumber((((int)p - 1) / 2), 2000, 5));
 
             return this.p;
         }
 
+        
+        private static int GenerateSimpleNumber(int limit)
+        {
+
+            int nechet;
+            do
+            {
+                do
+                {
+                    nechet = generator.Next(3, limit);
+                } while (!is_prime(nechet));
+            } while (!is_prime((nechet - 1) / 2));
+            return nechet;
+        }
+        
+        static bool is_prime(long n)
+        {
+            if (n < 0)
+                return false;
+            for( long i = 3; i * i <= n; ++i)
+                if((n % i) == 0) return false;
+            return true;
+        }
+        
         /// <summary>
-        /// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты 
+        /// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий 
         /// </summary>
         /// <param name="limit">Верхняя граница для проверки</param>
         /// <param name="k">Кол-во проверок</param>
         /// <returns></returns>
-        private static int GenerateSimpleNumber(int limit, int k)
+        private static int GenerateSimpleNumberByVoid(int limit, int k)
         {
             int number;
 
@@ -80,7 +112,7 @@ namespace Coder
             } while(!IsSimpleNumber(number, limit, k));
             return number;
         }
-
+        //Метод тестирования простоты
         private static bool IsSimpleNumber(int number,int limit, int k)
         {
             bool firstCondition = true; // условие делимости
@@ -151,13 +183,16 @@ namespace Coder
         {
             if (this.p == -1)
                 throw new ClientCreationFailException(this.Name, "Невозможно сгенерировать случайное число g, т.к не сгенерировано число p");
+
             this.g = GetPRoot(this.p) ?? -1;
+            if(this.g == -1)
+                throw new Exception("Невозможно получить корень p, требуются другие ключи");
             return this.g;
         }
 
-        private static long? GetPRoot(long p)
+        private static int? GetPRoot(int p)
         {
-            for (long i = 0; i < p; i++)
+            for (int i = 0; i < p; i++)
                 if (IsPRoot(p, i))
                     return i;
             return null;
@@ -179,34 +214,33 @@ namespace Coder
             return true;
         }
 
-        public void CalculateCommonKey()
+        public void TryCalculateSecretKey()
         {
-            if(this.key == -1)
-                throw new ClientCreationFailException(this.Name, "Попытка сгенерировать общий ключ, не сгенерирован закрытый ключ");
+            if (this.key == -1)
+                this.key = generator.Next(3, 100); //throw new ClientCreationFailException(this.Name, "Попытка сгенерировать общий ключ, не сгенерирован закрытый ключ");
             if (this.p == -1)
                 throw new ClientCreationFailException(this.Name, "Попытка сгенерировать общий ключ, не установлено p");
-            if (this.otherPublicKey == -1)
-                throw new ClientCreationFailException(this.Name, "Попытка сгенерировать общий ключ, не установлен чужой публичный ключ");
-
-            this.commonKey = (long)Math.Pow(this.otherPublicKey, this.key) % this.p;
+            if(this.otherPublicKey == -1)
+                throw new ClientCreationFailException(this.Name, "Немозможно вычислить секретный ключ");
+            this.secretKey = (int)Math.Pow(this.otherPublicKey, this.key) % this.p;
         }
 
         public void ReadMessage(string message)
         {
+            var name = message.Substring(0, message.IndexOf(':'));
+            
+            if (message.Contains(" g="))
+                this.g = int.Parse(Regex.Match(message, @" g=(?<g>\w+)").Groups["g"].Value);
+            if (message.Contains(" p="))
+                this.p = int.Parse(Regex.Match(message, @" p=(?<p>\w+)").Groups["p"].Value);
             if(message.Contains(" key="))
             {
-                this.otherPublicKey = long.Parse(Regex.Match(message, @" key=(?<key>\d+)").Groups["key"].Value);
+                this.otherPublicKey = int.Parse(Regex.Match(message, @" key=(?<key>[0-9-]+)").Groups["key"].Value);
+                TryCalculateSecretKey();
             }
-            if (message.Contains(" g="))
-                this.g = long.Parse(Regex.Match(message, @" g=(?<g>\d+)").Groups["g"].Value);
-            if (message.Contains(" p="))
-                this.p = long.Parse(Regex.Match(message, @" p=(?<p>\d+)").Groups["p"].Value);
-            if (this.commonKey == -1)
-                this.CalculateCommonKey();
-
-            var name = message.Substring(0, message.IndexOf(':') - 1);
+                
             var mes = this.CryptMessage(message);   
-            Console.WriteLine($"{name}: {message}");
+            Console.WriteLine($"{Encoding.UTF8.GetString(Encoding.Convert(Encoding.Default, Encoding.UTF8, Encoding.Default.GetBytes(mes)))}");
         }
 
         private string CryptMessage(string mes)
@@ -215,7 +249,7 @@ namespace Coder
             for(int i = 0; i < mes.Length; i++)
             {
                 if (char.IsLetter(mes[i]))
-                    builder.Append((char)(this.commonKey ^ mes[i]));
+                    builder.Append((char)(this.secretKey ^ mes[i]));
                 else
                     builder.Append(mes[i]);
             }
@@ -225,7 +259,7 @@ namespace Coder
         public void SendBroadcastMessage(string name, string message, bool crypt = false)
         {
             var mes = crypt ? this.CryptMessage($"{name}: {message}") : $"{name}: {message}";
-            Console.WriteLine($"send: {mes}");
+            Console.WriteLine($"send {name}: {message}");
             foreach (var item in poolClients)
             {
                 if(item.Value != this)

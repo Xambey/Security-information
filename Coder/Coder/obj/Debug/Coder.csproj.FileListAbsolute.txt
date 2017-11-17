@@ -6,3 +6,11 @@ C:\Users\Andrey\Documents\GitHub\Security-information\Coder\Coder\obj\Debug\Code
 C:\Users\Andrey\Documents\GitHub\Security-information\Coder\Coder\obj\Debug\Coder.csproj.CoreCompileInputs.cache
 C:\Users\Andrey\Documents\GitHub\Security-information\Coder\Coder\obj\Debug\Coder.exe
 C:\Users\Andrey\Documents\GitHub\Security-information\Coder\Coder\obj\Debug\Coder.pdb
+D:\Documents\GitHub\Security-information\Coder\Coder\bin\Debug\Coder.exe.config
+D:\Documents\GitHub\Security-information\Coder\Coder\bin\Debug\Coder.xml
+D:\Documents\GitHub\Security-information\Coder\Coder\bin\Debug\Coder.exe
+D:\Documents\GitHub\Security-information\Coder\Coder\bin\Debug\Coder.pdb
+D:\Documents\GitHub\Security-information\Coder\Coder\obj\Debug\Coder.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\Security-information\Coder\Coder\obj\Debug\Coder.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Security-information\Coder\Coder\obj\Debug\Coder.exe
+D:\Documents\GitHub\Security-information\Coder\Coder\obj\Debug\Coder.pdb

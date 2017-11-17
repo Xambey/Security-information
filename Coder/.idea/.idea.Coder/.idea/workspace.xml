@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61cb7e17-d7f3-4f14-9cbe-934233bd45f7" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="NormalRandom.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coder/NormalRandom.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1506027619732" expanded="false" signature="6:115" ph="..." />
+                <marker date="1506027619732" expanded="true" signature="132:971" ph="{...}" />
+                <marker date="1506027619732" expanded="true" signature="175:969" ph="{...}" />
+                <marker date="1506027619732" expanded="true" signature="273:963" ph="{...}" />
+                <marker date="1506027619732" expanded="true" signature="382:534" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiffiHelmanClient.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coder/DiffiHelmanClient.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="261" column="57" lean-forward="false" selection-start-line="261" selection-start-column="57" selection-end-line="261" selection-end-column="57" />
+              <folding>
+                <marker date="1510933137233" expanded="false" signature="6:143" ph="..." />
+                <marker date="1510933137233" expanded="true" signature="160:9422" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="190:9420" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="759:1503" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="880:1191" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="1245:1464" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="1544:2274" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="2313:2513" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="2336:2356" ph="/* do ... */" />
+                <marker date="1510933137233" expanded="true" signature="2582:2871" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="2917:3108" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="3126:3435" ph="/// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий  ... " />
+                <marker date="1510933137233" expanded="true" signature="3507:3717" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="3827:4283" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="3981:4153" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="4032:4139" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="4342:5974" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="4365:5046" ph="/* Представить n − 1 в виде 2s·t, где t нечётно, можно сделать последовательным делением n - 1 на 2. ... */" />
+                <marker date="1510933137233" expanded="true" signature="5277:5350" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="5391:5939" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="5649:5859" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="6013:6400" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="6445:6595" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="6648:7059" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="6837:7024" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="7104:7707" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="7756:8565" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="8156:8341" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="8614:8983" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="8729:8934" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="9080:9414" ph="{...}" />
+                <marker date="1510933137233" expanded="true" signature="9288:9404" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Coder/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+              <folding>
+                <marker date="1510933350249" expanded="true" signature="6:169" ph="..." />
+                <marker date="1510933350249" expanded="true" signature="187:3290" ph="{...}" />
+                <marker date="1510933350249" expanded="true" signature="207:3287" ph="{...}" />
+                <marker date="1510933350249" expanded="true" signature="253:2882" ph="{...}" />
+                <marker date="1510933350249" expanded="true" signature="540:921" ph="{...}" />
+                <marker date="1510933350249" expanded="true" signature="574:785" ph="{...}" />
+                <marker date="1510933350249" expanded="true" signature="821:907" ph="{...}" />
+                <marker date="1510933350249" expanded="true" signature="2191:2378" ph="/* hacked = coder.HardFrequencyHack(encrypted); ... */" />
+                <marker date="1510933350249" expanded="true" signature="2941:3281" ph="{...}" />
+                <marker date="1510933350249" expanded="true" signature="3008:3271" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientCreationFailException.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coder/ClientCreationFailException.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1508544149150" expanded="false" signature="6:115" ph="..." />
+                <marker date="1508544149150" expanded="true" signature="132:367" ph="{...}" />
+                <marker date="1508544149150" expanded="true" signature="184:365" ph="{...}" />
+                <marker date="1508544149150" expanded="true" signature="314:359" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grame.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Coder/Grame.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1507501210123" expanded="false" signature="6:115" ph="..." />
+                <marker date="1507501210123" expanded="true" signature="132:204" ph="{...}" />
+                <marker date="1507501210123" expanded="true" signature="149:202" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Coder/DiffiHelmanClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coder/NormalRandom.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coder/ClientCreationFailException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coder/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Coder/Grame.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Coder/DiffiHelmanClient.cs" />
+        <option value="$PROJECT_DIR$/Coder/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2293" />
+    <option name="y" value="-11" />
+    <option name="width" value="2326" />
+    <option name="height" value="1258" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coder (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Coder (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Coder" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Coder/bin/Debug/Coder.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Coder/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Coder/Coder.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61cb7e17-d7f3-4f14-9cbe-934233bd45f7" name="Default" comment="" />
+      <created>1510913609622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1510913609622</updated>
+      <workItem from="1510913611184" duration="18987000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18987000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2293" y="-11" width="2326" height="1258" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25380483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39962122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Coder/NormalRandom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506027619732" expanded="false" signature="6:115" ph="..." />
+            <marker date="1506027619732" expanded="true" signature="132:971" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="175:969" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="273:963" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="382:534" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/Grame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507501210123" expanded="false" signature="6:115" ph="..." />
+            <marker date="1507501210123" expanded="true" signature="132:204" ph="{...}" />
+            <marker date="1507501210123" expanded="true" signature="149:202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/ClientCreationFailException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508544149150" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508544149150" expanded="true" signature="132:367" ph="{...}" />
+            <marker date="1508544149150" expanded="true" signature="184:365" ph="{...}" />
+            <marker date="1508544149150" expanded="true" signature="314:359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/DiffiHelmanClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="261" column="57" lean-forward="false" selection-start-line="261" selection-start-column="57" selection-end-line="261" selection-end-column="57" />
+          <folding>
+            <marker date="1510933137233" expanded="false" signature="6:143" ph="..." />
+            <marker date="1510933137233" expanded="true" signature="160:9422" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="190:9420" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="759:1503" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="880:1191" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="1245:1464" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="1544:2274" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="2313:2513" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="2336:2356" ph="/* do ... */" />
+            <marker date="1510933137233" expanded="true" signature="2582:2871" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="2917:3108" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="3126:3435" ph="/// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий  ... " />
+            <marker date="1510933137233" expanded="true" signature="3507:3717" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="3827:4283" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="3981:4153" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="4032:4139" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="4342:5974" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="4365:5046" ph="/* Представить n − 1 в виде 2s·t, где t нечётно, можно сделать последовательным делением n - 1 на 2. ... */" />
+            <marker date="1510933137233" expanded="true" signature="5277:5350" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="5391:5939" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="5649:5859" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="6013:6400" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="6445:6595" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="6648:7059" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="6837:7024" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="7104:7707" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="7756:8565" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="8156:8341" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="8614:8983" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="8729:8934" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="9080:9414" ph="{...}" />
+            <marker date="1510933137233" expanded="true" signature="9288:9404" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+          <folding>
+            <marker date="1510933350249" expanded="true" signature="6:169" ph="..." />
+            <marker date="1510933350249" expanded="true" signature="187:3290" ph="{...}" />
+            <marker date="1510933350249" expanded="true" signature="207:3287" ph="{...}" />
+            <marker date="1510933350249" expanded="true" signature="253:2882" ph="{...}" />
+            <marker date="1510933350249" expanded="true" signature="540:921" ph="{...}" />
+            <marker date="1510933350249" expanded="true" signature="574:785" ph="{...}" />
+            <marker date="1510933350249" expanded="true" signature="821:907" ph="{...}" />
+            <marker date="1510933350249" expanded="true" signature="2191:2378" ph="/* hacked = coder.HardFrequencyHack(encrypted); ... */" />
+            <marker date="1510933350249" expanded="true" signature="2941:3281" ph="{...}" />
+            <marker date="1510933350249" expanded="true" signature="3008:3271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

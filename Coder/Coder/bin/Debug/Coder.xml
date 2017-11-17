@@ -78,9 +78,9 @@
             <param name="path">путь к каталогу </param>
             <param name="filename">имя файла</param>
         </member>
-        <member name="M:Coder.DiffiHelmanClient.GenerateSimpleNumber(System.Int32,System.Int32)">
+        <member name="M:Coder.DiffiHelmanClient.GenerateSimpleNumberByVoid(System.Int32,System.Int32)">
             <summary>
-            Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты 
+            Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий 
             </summary>
             <param name="limit">Верхняя граница для проверки</param>
             <param name="k">Кол-во проверок</param>
