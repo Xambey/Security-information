@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -67,14 +68,14 @@ namespace Coder
         {
             //do
             //{
-            this.p = GenerateSimpleNumber(1000);
+            this.p = GeneratePrimeNumber(1000);
             //} while (!IsSimpleNumber((((int)p - 1) / 2), 2000, 5));
 
             return this.p;
         }
 
         
-        private static int GenerateSimpleNumber(int limit)
+        private static int GeneratePrimeNumber(int limit)
         {
 
             int nechet;
@@ -103,17 +104,17 @@ namespace Coder
         /// <param name="limit">Верхняя граница для проверки</param>
         /// <param name="k">Кол-во проверок</param>
         /// <returns></returns>
-        private static int GenerateSimpleNumberByVoid(int limit, int k)
+        private static int GeneratePrimeByVoid(int limit, int k)
         {
             int number;
 
             do {
                 number = generator.Next(3, 128);//int.MaxValue);
-            } while(!IsSimpleNumber(number, limit, k));
+            } while(!IsPrime(number, limit, k));
             return number;
         }
         //Метод тестирования простоты
-        private static bool IsSimpleNumber(int number,int limit, int k)
+        private static bool IsPrime(int number,int limit, int k)
         {
             bool firstCondition = true; // условие делимости
 
@@ -199,7 +200,7 @@ namespace Coder
         }
 
         private static bool IsPRoot(long p, long a)
-        {
+        { 
             if (a == 0 || a == 1)
                 return false;
             long last = 1;

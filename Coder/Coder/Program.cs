@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Collections.Concurrent;
+using System.Numerics;
 
 
 namespace Coder
@@ -61,7 +62,7 @@ namespace Coder
             coder.WriteLineToConsoleAndLog($"\nПроцент соответствия: {Math.Round(coder.GetPercentCompliance(text, decrypted, true))}%");
             var hacked = coder.SimpleFrequencyHack(encrypted);
             coder.WriteLineToConsoleAndLog($"\nПроцент соответствия(simple) {Math.Round(coder.GetPercentCompliance(text, hacked, true))}%");
-            //hacked = coder.HardFrequencyHack(encrypted);
+            //hacked = coder.HardFrequencyHack(encrypted);// Слишком долго
             //coder.WriteLineToConsoleAndLog($"\nПроцент соответствия(hard) {Math.Round(coder.GetPercentCompliance(text, hacked, true))}%");
 
             var t = coder.EncryptOneTimeNotepad(text);

@@ -1,0 +1,11 @@
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\obj\Debug\netcoreapp2.0\DiffiHelman.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\obj\Debug\netcoreapp2.0\DiffiHelman.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\obj\Debug\netcoreapp2.0\DiffiHelman.AssemblyInfoInputs.cache
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\obj\Debug\netcoreapp2.0\DiffiHelman.AssemblyInfo.cs
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\bin\Debug\netcoreapp2.0\DiffiHelman.deps.json
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\bin\Debug\netcoreapp2.0\DiffiHelman.runtimeconfig.json
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\bin\Debug\netcoreapp2.0\DiffiHelman.runtimeconfig.dev.json
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\bin\Debug\netcoreapp2.0\DiffiHelman.dll
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\bin\Debug\netcoreapp2.0\DiffiHelman.pdb
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\obj\Debug\netcoreapp2.0\DiffiHelman.dll
+D:\Documents\GitHub\Security-information\DiffiHelman\DiffiHelman\obj\Debug\netcoreapp2.0\DiffiHelman.pdb

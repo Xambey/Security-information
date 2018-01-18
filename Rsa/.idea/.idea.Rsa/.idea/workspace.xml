@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32f90f5a-d41c-4de6-8570-1ea3983a7f63" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rsa/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+              <folding>
+                <marker date="1516313398736" expanded="false" signature="6:32" ph="..." />
+                <marker date="1516313398736" expanded="true" signature="57:1156" ph="{...}" />
+                <marker date="1516313398736" expanded="true" signature="93:1154" ph="{...}" />
+                <marker date="1516313398736" expanded="true" signature="147:1148" ph="{...}" />
+                <marker date="1516313398736" expanded="true" signature="675:934" ph="{...}" />
+                <marker date="1516313398736" expanded="true" signature="724:875" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Primes.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rsa/Primes.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding>
+                <marker date="1516313648365" expanded="false" signature="6:47" ph="..." />
+                <marker date="1516313648365" expanded="true" signature="72:1130" ph="{...}" />
+                <marker date="1516313648365" expanded="true" signature="100:1128" ph="{...}" />
+                <marker date="1516313648365" expanded="true" signature="304:654" ph="{...}" />
+                <marker date="1516313648365" expanded="true" signature="362:644" ph="{...}" />
+                <marker date="1516313648365" expanded="true" signature="409:630" ph="{...}" />
+                <marker date="1516313648365" expanded="true" signature="525:612" ph="{...}" />
+                <marker date="1516313648365" expanded="true" signature="685:1122" ph="{...}" />
+                <marker date="1516313648365" expanded="true" signature="968:1056" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Key.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Rsa/Key.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding>
+                <marker date="1516313648482" expanded="false" signature="6:70" ph="..." />
+                <marker date="1516313648482" expanded="true" signature="95:1974" ph="{...}" />
+                <marker date="1516313648482" expanded="true" signature="120:1972" ph="{...}" />
+                <marker date="1516313648482" expanded="true" signature="281:806" ph="{...}" />
+                <marker date="1516313648482" expanded="true" signature="846:1304" ph="{...}" />
+                <marker date="1516313648482" expanded="true" signature="902:1268" ph="{...}" />
+                <marker date="1516313648482" expanded="true" signature="1068:1254" ph="{...}" />
+                <marker date="1516313648482" expanded="true" signature="1352:1651" ph="{...}" />
+                <marker date="1516313648482" expanded="true" signature="1515:1615" ph="{...}" />
+                <marker date="1516313648482" expanded="true" signature="1702:1966" ph="{...}" />
+                <marker date="1516313648482" expanded="true" signature="1816:1918" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Rsa/Primes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Rsa/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Rsa/Key.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Rsa/Program.cs" />
+        <option value="$PROJECT_DIR$/Rsa/Key.cs" />
+        <option value="$PROJECT_DIR$/Rsa/Primes.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2293" />
+    <option name="y" value="-11" />
+    <option name="width" value="2326" />
+    <option name="height" value="1272" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Rsa (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Rsa (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Rsa" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Rsa/bin/Debug/netcoreapp2.0/Rsa.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Rsa" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Rsa/Rsa.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32f90f5a-d41c-4de6-8570-1ea3983a7f63" name="Default" comment="" />
+      <created>1516312961244</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516312961244</updated>
+      <workItem from="1516312962747" duration="319000" />
+      <workItem from="1516313391113" duration="867000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1186000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2293" y="-11" width="2326" height="1272" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25738585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Rsa/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="51" lean-forward="false" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <marker date="1516313398736" expanded="false" signature="6:32" ph="..." />
+            <marker date="1516313398736" expanded="true" signature="57:1156" ph="{...}" />
+            <marker date="1516313398736" expanded="true" signature="93:1154" ph="{...}" />
+            <marker date="1516313398736" expanded="true" signature="147:1148" ph="{...}" />
+            <marker date="1516313398736" expanded="true" signature="675:934" ph="{...}" />
+            <marker date="1516313398736" expanded="true" signature="724:875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rsa/Primes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516313648365" expanded="false" signature="6:47" ph="..." />
+            <marker date="1516313648365" expanded="true" signature="72:1130" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="100:1128" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="304:654" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="362:644" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="409:630" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="525:612" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="685:1122" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="968:1056" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rsa/Key.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+          <folding>
+            <marker date="1516313648482" expanded="false" signature="6:70" ph="..." />
+            <marker date="1516313648482" expanded="true" signature="95:1974" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="120:1972" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="281:806" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="846:1304" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="902:1268" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1068:1254" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1352:1651" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1515:1615" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1702:1966" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1816:1918" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rsa/Key.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <marker date="1516313648482" expanded="false" signature="6:70" ph="..." />
+            <marker date="1516313648482" expanded="true" signature="95:1974" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="120:1972" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="281:806" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="846:1304" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="902:1268" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1068:1254" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1352:1651" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1515:1615" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1702:1966" ph="{...}" />
+            <marker date="1516313648482" expanded="true" signature="1816:1918" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rsa/Primes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <marker date="1516313648365" expanded="false" signature="6:47" ph="..." />
+            <marker date="1516313648365" expanded="true" signature="72:1130" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="100:1128" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="304:654" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="362:644" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="409:630" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="525:612" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="685:1122" ph="{...}" />
+            <marker date="1516313648365" expanded="true" signature="968:1056" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rsa/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <marker date="1516313398736" expanded="false" signature="6:32" ph="..." />
+            <marker date="1516313398736" expanded="true" signature="57:1156" ph="{...}" />
+            <marker date="1516313398736" expanded="true" signature="93:1154" ph="{...}" />
+            <marker date="1516313398736" expanded="true" signature="147:1148" ph="{...}" />
+            <marker date="1516313398736" expanded="true" signature="675:934" ph="{...}" />
+            <marker date="1516313398736" expanded="true" signature="724:875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

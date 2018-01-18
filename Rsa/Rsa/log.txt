@@ -1,0 +1,6 @@
+C:\Users\Xambe\AppData\Local\JetBrains\Toolbox\apps\Rider\ch-1\172.4144.1873\lib\ReSharperHost\JetBrains.Debugger.Worker.exe 50698 "D:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.0.0"
+Private Key: (d, n) = (40003763, 86638961)
+Public Key: (e, n) = (10259, 86638961)
+Источник: "Спать хочу!!!"
+Зашифрованный текст: 47978659, 11359435, 23194519, 17571675, 5786719, 10279280, 72254337, 10672207, 45293306, 23533000, 82222348, 82222348, 82222348
+Расшифрованный текст: "Спать хочу!!!"

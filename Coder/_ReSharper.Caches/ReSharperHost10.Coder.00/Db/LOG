@@ -1,0 +1,11 @@
+2018/01/18-19:11:13.878 3c50 Recovering log #38
+2018/01/18-19:11:13.897 3c50 Level-0 table #66: started
+2018/01/18-19:11:13.981 3c50 Level-0 table #66: 279466 bytes OK
+2018/01/18-19:11:14.091 3c50 Delete type=0 #38
+2018/01/18-19:11:14.094 3c50 Delete type=3 #2
+2018/01/18-19:11:21.313 36d4 Compacting 1@0 + 0@1 files
+2018/01/18-19:11:21.364 36d4 Generated table #68: 5 keys, 3325 bytes
+2018/01/18-19:11:21.528 36d4 Generated table #69: 200 keys, 276104 bytes
+2018/01/18-19:11:21.528 36d4 Compacted 1@0 + 0@1 files => 279429 bytes
+2018/01/18-19:11:21.560 36d4 Delete type=2 #66
+2018/01/18-19:11:21.562 36d4 compacted to: files[ 0 2 20 0 0 0 0 ]

@@ -1,0 +1,122 @@
+2018/01/18-12:43:46.951 2ad8 Delete type=3 #1
+2018/01/18-12:43:54.438 43c0 Level-0 table #5: started
+2018/01/18-12:43:54.888 43c0 Level-0 table #5: 3749684 bytes OK
+2018/01/18-12:43:54.936 43c0 Delete type=0 #3
+2018/01/18-12:43:55.141 43c0 Level-0 table #7: started
+2018/01/18-12:43:55.473 43c0 Level-0 table #7: 3785477 bytes OK
+2018/01/18-12:43:55.495 43c0 Delete type=0 #4
+2018/01/18-12:43:55.686 43c0 Level-0 table #9: started
+2018/01/18-12:43:55.944 43c0 Level-0 table #9: 4066884 bytes OK
+2018/01/18-12:43:55.978 43c0 Delete type=0 #6
+2018/01/18-12:43:56.253 43c0 Level-0 table #11: started
+2018/01/18-12:43:56.576 43c0 Level-0 table #11: 4283059 bytes OK
+2018/01/18-12:43:56.620 43c0 Delete type=0 #8
+2018/01/18-12:43:56.990 43c0 Level-0 table #13: started
+2018/01/18-12:43:57.385 43c0 Level-0 table #13: 4316256 bytes OK
+2018/01/18-12:43:57.408 43c0 Delete type=0 #10
+2018/01/18-12:43:57.721 43c0 Level-0 table #15: started
+2018/01/18-12:43:57.908 43c0 Level-0 table #15: 3863600 bytes OK
+2018/01/18-12:43:57.933 43c0 Delete type=0 #12
+2018/01/18-12:43:57.934 43c0 Compacting 4@0 + 1@1 files
+2018/01/18-12:43:58.138 43c0 Level-0 table #18: started
+2018/01/18-12:43:58.368 43c0 Level-0 table #18: 3924266 bytes OK
+2018/01/18-12:43:58.432 43c0 Delete type=0 #14
+2018/01/18-12:43:58.760 43c0 Generated table #17: 4775 keys, 2161995 bytes
+2018/01/18-12:43:58.760 43c0 Level-0 table #20: started
+2018/01/18-12:43:59.097 43c0 Level-0 table #20: 4023501 bytes OK
+2018/01/18-12:43:59.130 43c0 Delete type=0 #16
+2018/01/18-12:43:59.339 43c0 Generated table #21: 4559 keys, 2160421 bytes
+2018/01/18-12:43:59.577 43c0 Generated table #22: 4730 keys, 2166285 bytes
+2018/01/18-12:43:59.752 43c0 Generated table #23: 2891 keys, 2172315 bytes
+2018/01/18-12:43:59.866 43c0 Generated table #24: 2929 keys, 2173915 bytes
+2018/01/18-12:43:59.983 43c0 Generated table #25: 3364 keys, 2161904 bytes
+2018/01/18-12:44:00.120 43c0 Generated table #26: 3409 keys, 2155822 bytes
+2018/01/18-12:44:00.263 43c0 Generated table #27: 2906 keys, 2165593 bytes
+2018/01/18-12:44:00.405 43c0 Generated table #28: 2522 keys, 2167924 bytes
+2018/01/18-12:44:00.489 43c0 Generated table #29: 916 keys, 783008 bytes
+2018/01/18-12:44:00.489 43c0 Compacted 4@0 + 1@1 files => 20269182 bytes
+2018/01/18-12:44:00.537 43c0 Delete type=2 #7
+2018/01/18-12:44:00.538 43c0 Delete type=2 #9
+2018/01/18-12:44:00.540 43c0 Delete type=2 #11
+2018/01/18-12:44:00.541 43c0 Delete type=2 #13
+2018/01/18-12:44:00.542 43c0 Delete type=2 #15
+2018/01/18-12:44:00.547 43c0 compacted to: files[ 2 10 1 0 0 0 0 ]
+2018/01/18-12:44:00.547 43c0 Expanding@1 1+1 to 10+1
+2018/01/18-12:44:00.547 43c0 Compacting 10@1 + 1@2 files
+2018/01/18-12:44:00.665 43c0 Generated table #30: 5435 keys, 2162693 bytes
+2018/01/18-12:44:00.807 43c0 Generated table #31: 4507 keys, 2164352 bytes
+2018/01/18-12:44:00.916 43c0 Generated table #32: 4391 keys, 2161743 bytes
+2018/01/18-12:44:01.050 43c0 Generated table #33: 3789 keys, 2186792 bytes
+2018/01/18-12:44:01.195 43c0 Generated table #34: 3658 keys, 2176002 bytes
+2018/01/18-12:44:01.320 43c0 Generated table #35: 2476 keys, 2178151 bytes
+2018/01/18-12:44:01.458 43c0 Generated table #36: 3645 keys, 2162438 bytes
+2018/01/18-12:44:01.708 43c0 Generated table #37: 3246 keys, 2163174 bytes
+2018/01/18-12:44:01.752 43c0 Level-0 table #40: started
+2018/01/18-12:44:01.893 43c0 Level-0 table #40: 5839202 bytes OK
+2018/01/18-12:44:01.925 43c0 Delete type=0 #19
+2018/01/18-12:44:02.062 43c0 Generated table #39: 3007 keys, 2157580 bytes
+2018/01/18-12:44:02.159 43c0 Generated table #41: 3017 keys, 2166975 bytes
+2018/01/18-12:44:02.269 43c0 Generated table #42: 2399 keys, 2171694 bytes
+2018/01/18-12:44:02.362 43c0 Generated table #43: 167 keys, 143710 bytes
+2018/01/18-12:44:02.362 43c0 Compacted 10@1 + 1@2 files => 23995304 bytes
+2018/01/18-12:44:02.423 43c0 Delete type=2 #5
+2018/01/18-12:44:02.424 43c0 Delete type=2 #17
+2018/01/18-12:44:02.427 43c0 Delete type=2 #21
+2018/01/18-12:44:02.428 43c0 Delete type=2 #22
+2018/01/18-12:44:02.429 43c0 Delete type=2 #23
+2018/01/18-12:44:02.431 43c0 Delete type=2 #24
+2018/01/18-12:44:02.432 43c0 Delete type=2 #25
+2018/01/18-12:44:02.433 43c0 Delete type=2 #26
+2018/01/18-12:44:02.434 43c0 Delete type=2 #27
+2018/01/18-12:44:02.435 43c0 Delete type=2 #28
+2018/01/18-12:44:02.436 43c0 Delete type=2 #29
+2018/01/18-12:44:02.437 43c0 compacted to: files[ 3 0 12 0 0 0 0 ]
+2018/01/18-12:44:03.094 43c0 Compacting 3@0 + 0@1 files
+2018/01/18-12:44:03.169 43c0 Generated table #44: 4925 keys, 2153566 bytes
+2018/01/18-12:44:03.235 43c0 Generated table #45: 1294 keys, 569080 bytes
+2018/01/18-12:44:03.345 43c0 Generated table #46: 3038 keys, 2170560 bytes
+2018/01/18-12:44:03.504 43c0 Generated table #47: 3465 keys, 2168009 bytes
+2018/01/18-12:44:03.795 43c0 Generated table #48: 2747 keys, 2168906 bytes
+2018/01/18-12:44:04.024 43c0 Generated table #49: 3062 keys, 2183660 bytes
+2018/01/18-12:44:04.143 43c0 Generated table #50: 85 keys, 2352830 bytes
+2018/01/18-12:44:04.187 43c0 Generated table #51: 16 keys, 398 bytes
+2018/01/18-12:44:04.187 43c0 Compacted 3@0 + 0@1 files => 13767009 bytes
+2018/01/18-12:44:04.220 43c0 Delete type=2 #18
+2018/01/18-12:44:04.221 43c0 Delete type=2 #20
+2018/01/18-12:44:04.223 43c0 Delete type=2 #40
+2018/01/18-12:44:04.225 43c0 compacted to: files[ 0 8 12 0 0 0 0 ]
+2018/01/18-12:44:04.251 43c0 Moved #51 to level-2 398 bytes OK: files[ 0 7 13 0 0 0 0 ]
+2018/01/18-12:44:04.252 43c0 Expanding@1 1+4 to 2+4
+2018/01/18-12:44:04.252 43c0 Compacting 2@1 + 4@2 files
+2018/01/18-12:44:04.470 43c0 Generated table #52: 5356 keys, 2163058 bytes
+2018/01/18-12:44:04.663 43c0 Generated table #53: 4380 keys, 2163227 bytes
+2018/01/18-12:44:04.847 43c0 Generated table #54: 4530 keys, 2160082 bytes
+2018/01/18-12:44:05.010 43c0 Generated table #55: 5352 keys, 2155438 bytes
+2018/01/18-12:44:05.178 43c0 Generated table #56: 4062 keys, 2172578 bytes
+2018/01/18-12:44:05.231 43c0 Generated table #57: 648 keys, 578029 bytes
+2018/01/18-12:44:05.231 43c0 Compacted 2@1 + 4@2 files => 11392412 bytes
+2018/01/18-12:44:05.280 43c0 Delete type=2 #30
+2018/01/18-12:44:05.282 43c0 Delete type=2 #31
+2018/01/18-12:44:05.284 43c0 Delete type=2 #32
+2018/01/18-12:44:05.286 43c0 Delete type=2 #33
+2018/01/18-12:44:05.291 43c0 Delete type=2 #44
+2018/01/18-12:44:05.294 43c0 Delete type=2 #45
+2018/01/18-12:44:05.295 43c0 compacted to: files[ 0 5 15 0 0 0 0 ]
+2018/01/18-12:44:05.296 43c0 Expanding@1 1+2 to 5+2
+2018/01/18-12:44:05.296 43c0 Compacting 5@1 + 2@2 files
+2018/01/18-12:44:05.447 43c0 Generated table #58: 2905 keys, 2166152 bytes
+2018/01/18-12:44:05.598 43c0 Generated table #59: 2525 keys, 2171961 bytes
+2018/01/18-12:44:05.744 43c0 Generated table #60: 3332 keys, 2171989 bytes
+2018/01/18-12:44:05.848 43c0 Generated table #61: 2863 keys, 2166596 bytes
+2018/01/18-12:44:06.015 43c0 Generated table #62: 3010 keys, 2188350 bytes
+2018/01/18-12:44:06.183 43c0 Generated table #63: 181 keys, 2477059 bytes
+2018/01/18-12:44:06.254 43c0 Generated table #64: 8 keys, 669 bytes
+2018/01/18-12:44:06.254 43c0 Compacted 5@1 + 2@2 files => 13342776 bytes
+2018/01/18-12:44:06.283 43c0 Delete type=2 #42
+2018/01/18-12:44:06.284 43c0 Delete type=2 #43
+2018/01/18-12:44:06.285 43c0 Delete type=2 #46
+2018/01/18-12:44:06.286 43c0 Delete type=2 #47
+2018/01/18-12:44:06.287 43c0 Delete type=2 #48
+2018/01/18-12:44:06.289 43c0 Delete type=2 #49
+2018/01/18-12:44:06.291 43c0 Delete type=2 #50
+2018/01/18-12:44:06.293 43c0 compacted to: files[ 0 0 20 0 0 0 0 ]

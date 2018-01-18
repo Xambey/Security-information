@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="NormalRandom.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Coder/NormalRandom.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -27,65 +27,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiffiHelmanClient.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DiffiHelmanClient.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Coder/DiffiHelmanClient.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="261" column="57" lean-forward="false" selection-start-line="261" selection-start-column="57" selection-end-line="261" selection-end-column="57" />
+            <state relative-caret-position="924">
+              <caret line="215" column="9" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="215" selection-end-column="9" />
               <folding>
-                <marker date="1510933137233" expanded="false" signature="6:143" ph="..." />
-                <marker date="1510933137233" expanded="true" signature="160:9422" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="190:9420" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="759:1503" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="880:1191" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="1245:1464" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="1544:2274" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="2313:2513" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="2336:2356" ph="/* do ... */" />
-                <marker date="1510933137233" expanded="true" signature="2582:2871" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="2917:3108" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="3126:3435" ph="/// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий  ... " />
-                <marker date="1510933137233" expanded="true" signature="3507:3717" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="3827:4283" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="3981:4153" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="4032:4139" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="4342:5974" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="4365:5046" ph="/* Представить n − 1 в виде 2s·t, где t нечётно, можно сделать последовательным делением n - 1 на 2. ... */" />
-                <marker date="1510933137233" expanded="true" signature="5277:5350" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="5391:5939" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="5649:5859" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="6013:6400" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="6445:6595" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="6648:7059" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="6837:7024" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="7104:7707" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="7756:8565" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="8156:8341" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="8614:8983" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="8729:8934" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="9080:9414" ph="{...}" />
-                <marker date="1510933137233" expanded="true" signature="9288:9404" ph="{...}" />
+                <marker date="1516293025731" expanded="false" signature="6:162" ph="..." />
+                <marker date="1516293025731" expanded="true" signature="179:9419" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="209:9417" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="778:1522" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="899:1210" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="1264:1483" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="1563:2293" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="2332:2531" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="2355:2375" ph="/* do ... */" />
+                <marker date="1516293025731" expanded="true" signature="2599:2888" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="2934:3125" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="3143:3452" ph="/// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий  ... " />
+                <marker date="1516293025731" expanded="true" signature="3517:3720" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="3823:4279" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="3977:4149" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="4028:4135" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="4338:5970" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="4361:5042" ph="/* Представить n − 1 в виде 2s·t, где t нечётно, можно сделать последовательным делением n - 1 на 2. ... */" />
+                <marker date="1516293025731" expanded="true" signature="5273:5346" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="5387:5935" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="5645:5855" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="6009:6396" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="6441:6591" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="6644:7056" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="6834:7021" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="7101:7704" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="7753:8562" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="8153:8338" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="8611:8980" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="8726:8931" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="9077:9411" ph="{...}" />
+                <marker date="1516293025731" expanded="true" signature="9285:9401" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Coder/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+            <state relative-caret-position="462">
+              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
               <folding>
-                <marker date="1510933350249" expanded="true" signature="6:169" ph="..." />
-                <marker date="1510933350249" expanded="true" signature="187:3290" ph="{...}" />
-                <marker date="1510933350249" expanded="true" signature="207:3287" ph="{...}" />
-                <marker date="1510933350249" expanded="true" signature="253:2882" ph="{...}" />
-                <marker date="1510933350249" expanded="true" signature="540:921" ph="{...}" />
-                <marker date="1510933350249" expanded="true" signature="574:785" ph="{...}" />
-                <marker date="1510933350249" expanded="true" signature="821:907" ph="{...}" />
-                <marker date="1510933350249" expanded="true" signature="2191:2378" ph="/* hacked = coder.HardFrequencyHack(encrypted); ... */" />
-                <marker date="1510933350249" expanded="true" signature="2941:3281" ph="{...}" />
-                <marker date="1510933350249" expanded="true" signature="3008:3271" ph="{...}" />
+                <marker date="1512168943252" expanded="false" signature="6:192" ph="..." />
+                <marker date="1512168943252" expanded="true" signature="210:3329" ph="{...}" />
+                <marker date="1512168943252" expanded="true" signature="230:3326" ph="{...}" />
+                <marker date="1512168943252" expanded="true" signature="276:2921" ph="{...}" />
+                <marker date="1512168943252" expanded="true" signature="563:944" ph="{...}" />
+                <marker date="1512168943252" expanded="true" signature="597:808" ph="{...}" />
+                <marker date="1512168943252" expanded="true" signature="844:930" ph="{...}" />
+                <marker date="1512168943252" expanded="true" signature="2214:2417" ph="/* hacked = coder.HardFrequencyHack(encrypted);// Слишком долго ... */" />
+                <marker date="1512168943252" expanded="true" signature="2980:3320" ph="{...}" />
+                <marker date="1512168943252" expanded="true" signature="3047:3310" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -132,8 +132,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Coder/DiffiHelmanClient.cs" />
+        <option value="$PROJECT_DIR$/Coder/PrimesEratosfen.cs" />
+        <option value="$PROJECT_DIR$/Coder/RSA.cs" />
         <option value="$PROJECT_DIR$/Coder/Program.cs" />
+        <option value="$PROJECT_DIR$/Coder/DiffiHelmanClient.cs" />
       </list>
     </option>
   </component>
@@ -147,7 +149,7 @@
     <option name="x" value="2293" />
     <option name="y" value="-11" />
     <option name="width" value="2326" />
-    <option name="height" value="1258" />
+    <option name="height" value="1272" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -227,11 +229,14 @@
       <option name="presentableId" value="Default" />
       <updated>1510913609622</updated>
       <workItem from="1510913611184" duration="18987000" />
+      <workItem from="1512136958867" duration="10422000" />
+      <workItem from="1516268619016" duration="696000" />
+      <workItem from="1516291866623" duration="3668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18987000" />
+    <option name="totallyTimeSpent" value="33773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,30 +248,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2293" y="-11" width="2326" height="1258" extended-state="6" />
+    <frame x="2293" y="-11" width="2326" height="1272" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25380483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897195" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2614145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39962122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290559" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -278,7 +283,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -297,14 +302,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Coder/Grame.cs">
+    <entry file="file://$PROJECT_DIR$/Coder/DiffiHelmanClient.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2442">
+          <caret line="115" column="35" lean-forward="false" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
           <folding>
-            <marker date="1507501210123" expanded="false" signature="6:115" ph="..." />
-            <marker date="1507501210123" expanded="true" signature="132:204" ph="{...}" />
-            <marker date="1507501210123" expanded="true" signature="149:202" ph="{...}" />
+            <marker date="1516293025731" expanded="false" signature="6:162" ph="..." />
+            <marker date="1516293025731" expanded="true" signature="179:9419" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="209:9417" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="778:1522" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="899:1210" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="1264:1483" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="1563:2293" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2332:2531" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2355:2375" ph="/* do ... */" />
+            <marker date="1516293025731" expanded="true" signature="2599:2888" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2934:3125" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3143:3452" ph="/// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий  ... " />
+            <marker date="1516293025731" expanded="true" signature="3517:3720" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3823:4279" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3977:4149" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4028:4135" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4338:5970" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4361:5042" ph="/* Представить n − 1 в виде 2s·t, где t нечётно, можно сделать последовательным делением n - 1 на 2. ... */" />
+            <marker date="1516293025731" expanded="true" signature="5273:5346" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="5387:5935" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="5645:5855" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6009:6396" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6441:6591" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6644:7056" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6834:7021" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="7101:7704" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="7753:8562" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8153:8338" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8611:8980" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8726:8931" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="9077:9411" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="9285:9401" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -322,62 +356,332 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Coder/DiffiHelmanClient.cs">
+    <entry file="file://$PROJECT_DIR$/Coder/Grame.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="261" column="57" lean-forward="false" selection-start-line="261" selection-start-column="57" selection-end-line="261" selection-end-column="57" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510933137233" expanded="false" signature="6:143" ph="..." />
-            <marker date="1510933137233" expanded="true" signature="160:9422" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="190:9420" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="759:1503" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="880:1191" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="1245:1464" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="1544:2274" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="2313:2513" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="2336:2356" ph="/* do ... */" />
-            <marker date="1510933137233" expanded="true" signature="2582:2871" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="2917:3108" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="3126:3435" ph="/// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий  ... " />
-            <marker date="1510933137233" expanded="true" signature="3507:3717" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="3827:4283" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="3981:4153" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="4032:4139" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="4342:5974" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="4365:5046" ph="/* Представить n − 1 в виде 2s·t, где t нечётно, можно сделать последовательным делением n - 1 на 2. ... */" />
-            <marker date="1510933137233" expanded="true" signature="5277:5350" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="5391:5939" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="5649:5859" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="6013:6400" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="6445:6595" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="6648:7059" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="6837:7024" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="7104:7707" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="7756:8565" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="8156:8341" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="8614:8983" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="8729:8934" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="9080:9414" ph="{...}" />
-            <marker date="1510933137233" expanded="true" signature="9288:9404" ph="{...}" />
+            <marker date="1507501210123" expanded="false" signature="6:115" ph="..." />
+            <marker date="1507501210123" expanded="true" signature="132:204" ph="{...}" />
+            <marker date="1507501210123" expanded="true" signature="149:202" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Coder/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="462">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <marker date="1512168943252" expanded="false" signature="6:192" ph="..." />
+            <marker date="1512168943252" expanded="true" signature="210:3329" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="230:3326" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="276:2921" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="563:944" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="597:808" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="844:930" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="2214:2417" ph="/* hacked = coder.HardFrequencyHack(encrypted);// Слишком долго ... */" />
+            <marker date="1512168943252" expanded="true" signature="2980:3320" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="3047:3310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/NormalRandom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506027619732" expanded="false" signature="6:115" ph="..." />
+            <marker date="1506027619732" expanded="true" signature="132:971" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="175:969" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="273:963" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="382:534" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/DiffiHelmanClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="115" column="35" lean-forward="false" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+          <folding>
+            <marker date="1516293025731" expanded="false" signature="6:162" ph="..." />
+            <marker date="1516293025731" expanded="true" signature="179:9419" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="209:9417" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="778:1522" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="899:1210" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="1264:1483" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="1563:2293" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2332:2531" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2355:2375" ph="/* do ... */" />
+            <marker date="1516293025731" expanded="true" signature="2599:2888" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2934:3125" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3143:3452" ph="/// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий  ... " />
+            <marker date="1516293025731" expanded="true" signature="3517:3720" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3823:4279" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3977:4149" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4028:4135" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4338:5970" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4361:5042" ph="/* Представить n − 1 в виде 2s·t, где t нечётно, можно сделать последовательным делением n - 1 на 2. ... */" />
+            <marker date="1516293025731" expanded="true" signature="5273:5346" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="5387:5935" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="5645:5855" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6009:6396" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6441:6591" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6644:7056" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6834:7021" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="7101:7704" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="7753:8562" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8153:8338" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8611:8980" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8726:8931" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="9077:9411" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="9285:9401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/ClientCreationFailException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508544149150" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508544149150" expanded="true" signature="132:367" ph="{...}" />
+            <marker date="1508544149150" expanded="true" signature="184:365" ph="{...}" />
+            <marker date="1508544149150" expanded="true" signature="314:359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/Grame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507501210123" expanded="false" signature="6:115" ph="..." />
+            <marker date="1507501210123" expanded="true" signature="132:204" ph="{...}" />
+            <marker date="1507501210123" expanded="true" signature="149:202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <marker date="1512168943252" expanded="false" signature="6:192" ph="..." />
+            <marker date="1512168943252" expanded="true" signature="210:3329" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="230:3326" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="276:2921" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="563:944" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="597:808" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="844:930" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="2214:2417" ph="/* hacked = coder.HardFrequencyHack(encrypted);// Слишком долго ... */" />
+            <marker date="1512168943252" expanded="true" signature="2980:3320" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="3047:3310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/NormalRandom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506027619732" expanded="false" signature="6:115" ph="..." />
+            <marker date="1506027619732" expanded="true" signature="132:971" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="175:969" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="273:963" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="382:534" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/DiffiHelmanClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5654">
+          <caret line="261" column="57" lean-forward="false" selection-start-line="261" selection-start-column="57" selection-end-line="261" selection-end-column="57" />
+          <folding>
+            <marker date="1516293025731" expanded="false" signature="6:162" ph="..." />
+            <marker date="1516293025731" expanded="true" signature="179:9419" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="209:9417" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="778:1522" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="899:1210" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="1264:1483" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="1563:2293" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2332:2531" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2355:2375" ph="/* do ... */" />
+            <marker date="1516293025731" expanded="true" signature="2599:2888" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2934:3125" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3143:3452" ph="/// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий  ... " />
+            <marker date="1516293025731" expanded="true" signature="3517:3720" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3823:4279" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3977:4149" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4028:4135" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4338:5970" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4361:5042" ph="/* Представить n − 1 в виде 2s·t, где t нечётно, можно сделать последовательным делением n - 1 на 2. ... */" />
+            <marker date="1516293025731" expanded="true" signature="5273:5346" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="5387:5935" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="5645:5855" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6009:6396" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6441:6591" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6644:7056" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6834:7021" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="7101:7704" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="7753:8562" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8153:8338" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8611:8980" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8726:8931" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="9077:9411" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="9285:9401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/ClientCreationFailException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508544149150" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508544149150" expanded="true" signature="132:367" ph="{...}" />
+            <marker date="1508544149150" expanded="true" signature="184:365" ph="{...}" />
+            <marker date="1508544149150" expanded="true" signature="314:359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/Grame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507501210123" expanded="false" signature="6:115" ph="..." />
+            <marker date="1507501210123" expanded="true" signature="132:204" ph="{...}" />
+            <marker date="1507501210123" expanded="true" signature="149:202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
           <caret line="43" column="55" lean-forward="true" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
           <folding>
-            <marker date="1510933350249" expanded="true" signature="6:169" ph="..." />
-            <marker date="1510933350249" expanded="true" signature="187:3290" ph="{...}" />
-            <marker date="1510933350249" expanded="true" signature="207:3287" ph="{...}" />
-            <marker date="1510933350249" expanded="true" signature="253:2882" ph="{...}" />
-            <marker date="1510933350249" expanded="true" signature="540:921" ph="{...}" />
-            <marker date="1510933350249" expanded="true" signature="574:785" ph="{...}" />
-            <marker date="1510933350249" expanded="true" signature="821:907" ph="{...}" />
-            <marker date="1510933350249" expanded="true" signature="2191:2378" ph="/* hacked = coder.HardFrequencyHack(encrypted); ... */" />
-            <marker date="1510933350249" expanded="true" signature="2941:3281" ph="{...}" />
-            <marker date="1510933350249" expanded="true" signature="3008:3271" ph="{...}" />
+            <marker date="1512168943252" expanded="false" signature="6:192" ph="..." />
+            <marker date="1512168943252" expanded="true" signature="210:3329" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="230:3326" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="276:2921" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="563:944" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="597:808" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="844:930" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="2214:2417" ph="/* hacked = coder.HardFrequencyHack(encrypted);// Слишком долго ... */" />
+            <marker date="1512168943252" expanded="true" signature="2980:3320" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="3047:3310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/ClientCreationFailException.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508544149150" expanded="false" signature="6:115" ph="..." />
+            <marker date="1508544149150" expanded="true" signature="132:367" ph="{...}" />
+            <marker date="1508544149150" expanded="true" signature="184:365" ph="{...}" />
+            <marker date="1508544149150" expanded="true" signature="314:359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/NormalRandom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506027619732" expanded="false" signature="6:115" ph="..." />
+            <marker date="1506027619732" expanded="true" signature="132:971" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="175:969" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="273:963" ph="{...}" />
+            <marker date="1506027619732" expanded="true" signature="382:534" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/PrimesEratosfen.cs" />
+    <entry file="file://$PROJECT_DIR$/Coder/RSA.cs" />
+    <entry file="file://$PROJECT_DIR$/Coder/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <marker date="1512168943252" expanded="false" signature="6:192" ph="..." />
+            <marker date="1512168943252" expanded="true" signature="210:3329" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="230:3326" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="276:2921" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="563:944" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="597:808" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="844:930" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="2214:2417" ph="/* hacked = coder.HardFrequencyHack(encrypted);// Слишком долго ... */" />
+            <marker date="1512168943252" expanded="true" signature="2980:3320" ph="{...}" />
+            <marker date="1512168943252" expanded="true" signature="3047:3310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/Grame.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507501210123" expanded="false" signature="6:115" ph="..." />
+            <marker date="1507501210123" expanded="true" signature="132:204" ph="{...}" />
+            <marker date="1507501210123" expanded="true" signature="149:202" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Coder/DiffiHelmanClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="215" column="9" lean-forward="false" selection-start-line="193" selection-start-column="8" selection-end-line="215" selection-end-column="9" />
+          <folding>
+            <marker date="1516293025731" expanded="false" signature="6:162" ph="..." />
+            <marker date="1516293025731" expanded="true" signature="179:9419" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="209:9417" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="778:1522" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="899:1210" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="1264:1483" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="1563:2293" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2332:2531" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2355:2375" ph="/* do ... */" />
+            <marker date="1516293025731" expanded="true" signature="2599:2888" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="2934:3125" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3143:3452" ph="/// Возвращает случайное простое число, сгенерированное при помощи метода тестирования пустоты, слишком долгий  ... " />
+            <marker date="1516293025731" expanded="true" signature="3517:3720" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3823:4279" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="3977:4149" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4028:4135" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4338:5970" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="4361:5042" ph="/* Представить n − 1 в виде 2s·t, где t нечётно, можно сделать последовательным делением n - 1 на 2. ... */" />
+            <marker date="1516293025731" expanded="true" signature="5273:5346" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="5387:5935" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="5645:5855" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6009:6396" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6441:6591" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6644:7056" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="6834:7021" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="7101:7704" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="7753:8562" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8153:8338" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8611:8980" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="8726:8931" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="9077:9411" ph="{...}" />
+            <marker date="1516293025731" expanded="true" signature="9285:9401" ph="{...}" />
           </folding>
         </state>
       </provider>
