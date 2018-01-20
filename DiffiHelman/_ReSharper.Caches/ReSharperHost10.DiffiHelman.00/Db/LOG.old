@@ -1,0 +1,145 @@
+2018/01/18-20:29:21.271 2134 Delete type=3 #1
+2018/01/18-20:29:37.316 3c8c Level-0 table #5: started
+2018/01/18-20:29:37.730 3c8c Level-0 table #5: 4150371 bytes OK
+2018/01/18-20:29:37.775 3c8c Delete type=0 #3
+2018/01/18-20:29:38.434 3c8c Level-0 table #7: started
+2018/01/18-20:29:38.831 3c8c Level-0 table #7: 3843059 bytes OK
+2018/01/18-20:29:38.906 3c8c Delete type=0 #4
+2018/01/18-20:29:39.145 3c8c Level-0 table #9: started
+2018/01/18-20:29:39.694 3c8c Level-0 table #9: 3692238 bytes OK
+2018/01/18-20:29:39.871 3c8c Delete type=0 #6
+2018/01/18-20:29:40.918 3c8c Compacting 1@0 + 1@1 files
+2018/01/18-20:29:41.312 3c8c Generated table #10: 4913 keys, 2152349 bytes
+2018/01/18-20:29:41.333 3c8c Level-0 table #13: started
+2018/01/18-20:29:41.536 3c8c Level-0 table #13: 3952735 bytes OK
+2018/01/18-20:29:41.576 3c8c Delete type=0 #8
+2018/01/18-20:29:41.802 3c8c Generated table #12: 2959 keys, 2167318 bytes
+2018/01/18-20:29:41.823 3c8c Level-0 table #16: started
+2018/01/18-20:29:42.082 3c8c Level-0 table #16: 4009681 bytes OK
+2018/01/18-20:29:42.132 3c8c Delete type=0 #11
+2018/01/18-20:29:42.404 3c8c Generated table #15: 3766 keys, 2154080 bytes
+2018/01/18-20:29:42.862 3c8c Level-0 table #19: started
+2018/01/18-20:29:43.184 3c8c Level-0 table #19: 3837097 bytes OK
+2018/01/18-20:29:43.204 3c8c Delete type=0 #14
+2018/01/18-20:29:43.525 3c8c Generated table #18: 1080 keys, 1048304 bytes
+2018/01/18-20:29:44.317 3c8c Compacted 1@0 + 1@1 files => 7522051 bytes
+2018/01/18-20:29:44.436 3c8c Delete type=2 #7
+2018/01/18-20:29:44.440 3c8c Delete type=2 #9
+2018/01/18-20:29:44.468 3c8c compacted to: files[ 3 4 1 0 0 0 0 ]
+2018/01/18-20:29:44.468 3c8c Level-0 table #21: started
+2018/01/18-20:29:44.733 3c8c Level-0 table #21: 3998200 bytes OK
+2018/01/18-20:29:44.759 3c8c Delete type=0 #17
+2018/01/18-20:29:44.761 3c8c Compacting 4@0 + 4@1 files
+2018/01/18-20:29:45.025 3c8c Generated table #22: 4820 keys, 2159154 bytes
+2018/01/18-20:29:45.025 3c8c Level-0 table #24: started
+2018/01/18-20:29:45.258 3c8c Level-0 table #24: 4067662 bytes OK
+2018/01/18-20:29:45.308 3c8c Delete type=0 #20
+2018/01/18-20:29:45.532 3c8c Generated table #25: 4970 keys, 2155692 bytes
+2018/01/18-20:29:45.756 3c8c Generated table #26: 5164 keys, 2162052 bytes
+2018/01/18-20:29:46.033 3c8c Generated table #27: 3499 keys, 2165138 bytes
+2018/01/18-20:29:46.211 3c8c Generated table #28: 3987 keys, 2155798 bytes
+2018/01/18-20:29:46.360 3c8c Generated table #29: 2623 keys, 2169904 bytes
+2018/01/18-20:29:46.547 3c8c Generated table #30: 2532 keys, 2178218 bytes
+2018/01/18-20:29:46.938 3c8c Generated table #31: 3801 keys, 2158948 bytes
+2018/01/18-20:29:47.137 3c8c Generated table #32: 3112 keys, 2178386 bytes
+2018/01/18-20:29:47.462 3c8c Generated table #33: 3333 keys, 2162851 bytes
+2018/01/18-20:29:47.696 3c8c Generated table #34: 1877 keys, 1635290 bytes
+2018/01/18-20:29:47.696 3c8c Compacted 4@0 + 4@1 files => 23281431 bytes
+2018/01/18-20:29:47.784 3c8c Delete type=2 #10
+2018/01/18-20:29:47.789 3c8c Delete type=2 #12
+2018/01/18-20:29:47.792 3c8c Delete type=2 #13
+2018/01/18-20:29:47.794 3c8c Delete type=2 #15
+2018/01/18-20:29:47.795 3c8c Delete type=2 #16
+2018/01/18-20:29:47.797 3c8c Delete type=2 #18
+2018/01/18-20:29:47.813 3c8c Delete type=2 #19
+2018/01/18-20:29:47.814 3c8c Delete type=2 #21
+2018/01/18-20:29:47.817 3c8c compacted to: files[ 1 11 1 0 0 0 0 ]
+2018/01/18-20:29:47.817 3c8c Expanding@1 1+1 to 11+1
+2018/01/18-20:29:47.817 3c8c Compacting 11@1 + 1@2 files
+2018/01/18-20:29:48.139 3c8c Generated table #35: 5191 keys, 2166669 bytes
+2018/01/18-20:29:48.358 3c8c Generated table #36: 4374 keys, 2162127 bytes
+2018/01/18-20:29:48.617 3c8c Generated table #37: 5551 keys, 2155193 bytes
+2018/01/18-20:29:48.873 3c8c Generated table #38: 4846 keys, 2163831 bytes
+2018/01/18-20:29:49.012 3c8c Generated table #39: 3065 keys, 2181857 bytes
+2018/01/18-20:29:49.173 3c8c Generated table #40: 2981 keys, 2161336 bytes
+2018/01/18-20:29:49.326 3c8c Generated table #41: 3856 keys, 2155725 bytes
+2018/01/18-20:29:49.492 3c8c Generated table #42: 2579 keys, 2173795 bytes
+2018/01/18-20:29:49.621 3c8c Generated table #43: 2550 keys, 2175944 bytes
+2018/01/18-20:29:49.782 3c8c Generated table #44: 3690 keys, 2154597 bytes
+2018/01/18-20:29:49.941 3c8c Generated table #45: 3365 keys, 2175361 bytes
+2018/01/18-20:29:50.109 3c8c Generated table #46: 3097 keys, 2167329 bytes
+2018/01/18-20:29:50.215 3c8c Generated table #47: 1699 keys, 1420235 bytes
+2018/01/18-20:29:50.215 3c8c Compacted 11@1 + 1@2 files => 27413999 bytes
+2018/01/18-20:29:50.240 3c8c Delete type=2 #5
+2018/01/18-20:29:50.244 3c8c Delete type=2 #22
+2018/01/18-20:29:50.247 3c8c Delete type=2 #25
+2018/01/18-20:29:50.251 3c8c Delete type=2 #26
+2018/01/18-20:29:50.255 3c8c Delete type=2 #27
+2018/01/18-20:29:50.258 3c8c Delete type=2 #28
+2018/01/18-20:29:50.260 3c8c Delete type=2 #29
+2018/01/18-20:29:50.263 3c8c Delete type=2 #30
+2018/01/18-20:29:50.264 3c8c Delete type=2 #31
+2018/01/18-20:29:50.269 3c8c Delete type=2 #32
+2018/01/18-20:29:50.272 3c8c Delete type=2 #33
+2018/01/18-20:29:50.274 3c8c Delete type=2 #34
+2018/01/18-20:29:50.275 3c8c compacted to: files[ 1 0 13 0 0 0 0 ]
+2018/01/18-20:30:34.860 3c8c Level-0 table #49: started
+2018/01/18-20:30:35.265 3c8c Level-0 table #49: 5453229 bytes OK
+2018/01/18-20:30:35.305 3c8c Delete type=0 #23
+2018/01/18-22:27:05.614 3c8c Level-0 table #51: started
+2018/01/18-22:27:05.912 3c8c Level-0 table #51: 3668491 bytes OK
+2018/01/18-22:27:05.943 3c8c Delete type=0 #48
+2018/01/18-22:46:20.823 3c8c Level-0 table #53: started
+2018/01/18-22:46:21.062 3c8c Level-0 table #53: 3818175 bytes OK
+2018/01/18-22:46:21.092 3c8c Delete type=0 #50
+2018/01/18-22:46:21.094 3c8c Compacting 4@0 + 0@1 files
+2018/01/18-22:46:21.255 3c8c Generated table #54: 4505 keys, 2163885 bytes
+2018/01/18-22:46:21.352 3c8c Generated table #55: 231 keys, 148772 bytes
+2018/01/18-22:46:21.515 3c8c Generated table #56: 3189 keys, 2169127 bytes
+2018/01/18-22:46:21.656 3c8c Generated table #57: 2386 keys, 2174423 bytes
+2018/01/18-22:46:21.808 3c8c Generated table #58: 823 keys, 2463746 bytes
+2018/01/18-22:46:21.865 3c8c Generated table #59: 112 keys, 398298 bytes
+2018/01/18-22:46:21.865 3c8c Compacted 4@0 + 0@1 files => 9518251 bytes
+2018/01/18-22:46:21.907 3c8c Delete type=2 #24
+2018/01/18-22:46:21.910 3c8c Delete type=2 #49
+2018/01/18-22:46:21.912 3c8c Delete type=2 #51
+2018/01/18-22:46:21.915 3c8c Delete type=2 #53
+2018/01/18-22:46:21.917 3c8c compacted to: files[ 0 6 13 0 0 0 0 ]
+2018/01/18-23:02:34.305 3c8c Expanding@1 1+4 to 2+4
+2018/01/18-23:02:34.305 3c8c Compacting 2@1 + 4@2 files
+2018/01/18-23:02:34.621 3c8c Generated table #60: 5028 keys, 2165829 bytes
+2018/01/18-23:02:34.818 3c8c Generated table #61: 4476 keys, 2162764 bytes
+2018/01/18-23:02:35.022 3c8c Generated table #62: 5452 keys, 2154762 bytes
+2018/01/18-23:02:35.185 3c8c Generated table #63: 5181 keys, 2159455 bytes
+2018/01/18-23:02:35.357 3c8c Generated table #64: 4266 keys, 2166303 bytes
+2018/01/18-23:02:35.420 3c8c Generated table #65: 285 keys, 145218 bytes
+2018/01/18-23:02:35.420 3c8c Compacted 2@1 + 4@2 files => 10954331 bytes
+2018/01/18-23:02:35.466 3c8c Delete type=2 #35
+2018/01/18-23:02:35.472 3c8c Delete type=2 #36
+2018/01/18-23:02:35.473 3c8c Delete type=2 #37
+2018/01/18-23:02:35.475 3c8c Delete type=2 #38
+2018/01/18-23:02:35.476 3c8c Delete type=2 #54
+2018/01/18-23:02:35.482 3c8c Delete type=2 #55
+2018/01/18-23:02:35.488 3c8c compacted to: files[ 0 4 15 0 0 0 0 ]
+2018/01/18-23:06:22.583 3c8c Level-0 table #67: started
+2018/01/18-23:06:22.794 3c8c Level-0 table #67: 3909096 bytes OK
+2018/01/18-23:06:22.816 3c8c Delete type=0 #52
+2018/01/19-00:08:18.924 3c8c Compacting 1@0 + 4@1 files
+2018/01/19-00:08:19.011 3c8c Generated table #68: 3 keys, 3449 bytes
+2018/01/19-00:08:19.137 3c8c Generated table #69: 3189 keys, 2169127 bytes
+2018/01/19-00:08:19.292 3c8c Generated table #70: 2386 keys, 2174423 bytes
+2018/01/19-00:08:19.425 3c8c Generated table #71: 823 keys, 2463810 bytes
+2018/01/19-00:08:19.472 3c8c Generated table #72: 115 keys, 400248 bytes
+2018/01/19-00:08:19.472 3c8c Compacted 1@0 + 4@1 files => 7211057 bytes
+2018/01/19-00:08:19.501 3c8c Delete type=2 #56
+2018/01/19-00:08:19.502 3c8c Delete type=2 #57
+2018/01/19-00:08:19.503 3c8c Delete type=2 #58
+2018/01/19-00:08:19.504 3c8c Delete type=2 #59
+2018/01/19-00:08:19.505 3c8c Delete type=2 #67
+2018/01/19-00:08:19.506 3c8c compacted to: files[ 0 5 15 0 0 0 0 ]
+2018/01/19-00:08:26.942 3c8c Level-0 table #74: started
+2018/01/19-00:08:27.080 3c8c Level-0 table #74: 3909332 bytes OK
+2018/01/19-00:08:27.116 3c8c Delete type=0 #66
+2018/01/19-00:32:01.980 3c8c Level-0 table #76: started
+2018/01/19-00:32:02.223 3c8c Level-0 table #76: 3960561 bytes OK
+2018/01/19-00:32:02.251 3c8c Delete type=0 #73

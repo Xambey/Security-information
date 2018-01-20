@@ -1,0 +1,29 @@
+2018/01/20-02:52:29.114 36f4 Recovering log #48
+2018/01/20-02:52:29.114 36f4 Level-0 table #51: started
+2018/01/20-02:52:29.233 36f4 Level-0 table #51: 6755 bytes OK
+2018/01/20-02:52:29.371 36f4 Delete type=0 #48
+2018/01/20-02:52:29.372 36f4 Delete type=3 #2
+2018/01/20-02:52:38.072 f3c Compacting 2@0 + 0@1 files
+2018/01/20-02:52:38.597 f3c Generated table #53: 1739 keys, 960331 bytes
+2018/01/20-02:52:38.923 f3c Generated table #54: 2663 keys, 2171460 bytes
+2018/01/20-02:52:39.112 f3c Generated table #55: 472 keys, 2213144 bytes
+2018/01/20-02:52:39.212 f3c Generated table #56: 78 keys, 389357 bytes
+2018/01/20-02:52:39.212 f3c Compacted 2@0 + 0@1 files => 5734292 bytes
+2018/01/20-02:52:39.273 f3c Delete type=2 #49
+2018/01/20-02:52:39.275 f3c Delete type=2 #51
+2018/01/20-02:52:39.276 f3c compacted to: files[ 0 4 15 0 0 0 0 ]
+2018/01/20-03:43:10.582 f3c Compacting 1@1 + 5@2 files
+2018/01/20-03:43:10.927 f3c Generated table #57: 5039 keys, 2166682 bytes
+2018/01/20-03:43:11.122 f3c Generated table #58: 4470 keys, 2165117 bytes
+2018/01/20-03:43:11.285 f3c Generated table #59: 5264 keys, 2159513 bytes
+2018/01/20-03:43:11.421 f3c Generated table #60: 5473 keys, 2154942 bytes
+2018/01/20-03:43:11.565 f3c Generated table #61: 4168 keys, 2165968 bytes
+2018/01/20-03:43:11.652 f3c Generated table #62: 1119 keys, 961653 bytes
+2018/01/20-03:43:11.652 f3c Compacted 1@1 + 5@2 files => 11773875 bytes
+2018/01/20-03:43:11.691 f3c Delete type=2 #33
+2018/01/20-03:43:11.692 f3c Delete type=2 #34
+2018/01/20-03:43:11.692 f3c Delete type=2 #35
+2018/01/20-03:43:11.693 f3c Delete type=2 #36
+2018/01/20-03:43:11.694 f3c Delete type=2 #37
+2018/01/20-03:43:11.695 f3c Delete type=2 #53
+2018/01/20-03:43:11.696 f3c compacted to: files[ 0 3 16 0 0 0 0 ]

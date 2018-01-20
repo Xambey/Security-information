@@ -1,0 +1,33 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\Documents\\GitHub\\Security-information\\SRP6\\SRP6\\SRP6.csproj",
+    "projectName": "SRP6",
+    "projectPath": "D:\\Documents\\GitHub\\Security-information\\SRP6\\SRP6\\SRP6.csproj",
+    "outputPath": "D:\\Documents\\GitHub\\Security-information\\SRP6\\SRP6\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "target": "Package",
+          "version": "2.0.0"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

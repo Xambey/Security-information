@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abb5a109-ed3b-4f7b-b775-78be3058c1bd" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRP6/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <folding>
+                <marker date="1516417017414" expanded="false" signature="6:32" ph="..." />
+                <marker date="1516417017414" expanded="true" signature="48:5035" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="68:5033" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="409:1089" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="741:989" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="848:930" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="1127:1281" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="1329:1777" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="1397:1767" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="1548:1727" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="1847:2237" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="1987:2175" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="2281:4697" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="4742:5026" ph="{...}" />
+                <marker date="1516417017414" expanded="true" signature="4898:4989" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Srp6.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SRP6/Srp6.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="267" column="45" lean-forward="true" selection-start-line="267" selection-start-column="45" selection-end-line="267" selection-end-column="45" />
+              <folding>
+                <marker date="1516416858428" expanded="false" signature="6:108" ph="..." />
+                <marker date="1516416858428" expanded="true" signature="124:9184" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="148:9182" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="188:250" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="282:344" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="381:443" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="481:543" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="579:641" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="758:820" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="857:919" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="955:1017" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="1055:1117" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="1155:1217" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="1254:1316" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="1353:1415" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="1460:1522" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="1569:1631" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="1659:1721" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="1767:1829" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="1957:2428" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="2674:3313" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="3548:3949" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="4030:4766" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="4372:4756" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="4815:5097" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="5143:5381" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="5435:6791" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="6142:6711" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="6214:6697" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="6341:6679" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="6849:7144" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="7190:7428" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="7483:7734" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="7809:9176" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="7961:8049" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="8621:9097" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="8708:9083" ph="{...}" />
+                <marker date="1516416858428" expanded="true" signature="8834:9065" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SRP6/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SRP6/Srp6.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SRP6/Server.cs" />
+        <option value="$PROJECT_DIR$/SRP6/Program.cs" />
+        <option value="$PROJECT_DIR$/SRP6/Client.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SRP6 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="SRP6 (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SRP6" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SRP6-Library-0.3/SRP6-CSharp/SRP6-CSharp.sln" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/SRP6/bin/Debug/netcoreapp2.0/SRP6.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SRP6" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SRP6/SRP6.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abb5a109-ed3b-4f7b-b775-78be3058c1bd" name="Default" comment="" />
+      <created>1516396550950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516396550950</updated>
+      <workItem from="1516396552571" duration="646000" />
+      <workItem from="1516405956207" duration="4423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5069000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31264636" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3108108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SRP6/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRP6/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRP6/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRP6/Server.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRP6/Client.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRP6/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <marker date="1516417017414" expanded="false" signature="6:32" ph="..." />
+            <marker date="1516417017414" expanded="true" signature="48:5035" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="68:5033" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="409:1089" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="741:989" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="848:930" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="1127:1281" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="1329:1777" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="1397:1767" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="1548:1727" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="1847:2237" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="1987:2175" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="2281:4697" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="4742:5026" ph="{...}" />
+            <marker date="1516417017414" expanded="true" signature="4898:4989" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRP6/Srp6.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="267" column="45" lean-forward="true" selection-start-line="267" selection-start-column="45" selection-end-line="267" selection-end-column="45" />
+          <folding>
+            <marker date="1516416858428" expanded="false" signature="6:108" ph="..." />
+            <marker date="1516416858428" expanded="true" signature="124:9184" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="148:9182" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="188:250" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="282:344" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="381:443" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="481:543" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="579:641" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="758:820" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="857:919" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="955:1017" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="1055:1117" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="1155:1217" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="1254:1316" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="1353:1415" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="1460:1522" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="1569:1631" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="1659:1721" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="1767:1829" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="1957:2428" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="2674:3313" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="3548:3949" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="4030:4766" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="4372:4756" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="4815:5097" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="5143:5381" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="5435:6791" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="6142:6711" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="6214:6697" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="6341:6679" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="6849:7144" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="7190:7428" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="7483:7734" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="7809:9176" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="7961:8049" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="8621:9097" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="8708:9083" ph="{...}" />
+            <marker date="1516416858428" expanded="true" signature="8834:9065" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

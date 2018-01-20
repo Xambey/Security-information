@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Xambe\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Xambe\\.nuget\\packages"
+    ]
+  }
+}

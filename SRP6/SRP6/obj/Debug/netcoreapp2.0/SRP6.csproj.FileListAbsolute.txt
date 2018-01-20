@@ -1,0 +1,11 @@
+D:\Documents\GitHub\Security-information\SRP6\SRP6\bin\Debug\netcoreapp2.0\SRP6.deps.json
+D:\Documents\GitHub\Security-information\SRP6\SRP6\bin\Debug\netcoreapp2.0\SRP6.runtimeconfig.json
+D:\Documents\GitHub\Security-information\SRP6\SRP6\bin\Debug\netcoreapp2.0\SRP6.runtimeconfig.dev.json
+D:\Documents\GitHub\Security-information\SRP6\SRP6\bin\Debug\netcoreapp2.0\SRP6.dll
+D:\Documents\GitHub\Security-information\SRP6\SRP6\bin\Debug\netcoreapp2.0\SRP6.pdb
+D:\Documents\GitHub\Security-information\SRP6\SRP6\obj\Debug\netcoreapp2.0\SRP6.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\Security-information\SRP6\SRP6\obj\Debug\netcoreapp2.0\SRP6.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Security-information\SRP6\SRP6\obj\Debug\netcoreapp2.0\SRP6.AssemblyInfoInputs.cache
+D:\Documents\GitHub\Security-information\SRP6\SRP6\obj\Debug\netcoreapp2.0\SRP6.AssemblyInfo.cs
+D:\Documents\GitHub\Security-information\SRP6\SRP6\obj\Debug\netcoreapp2.0\SRP6.dll
+D:\Documents\GitHub\Security-information\SRP6\SRP6\obj\Debug\netcoreapp2.0\SRP6.pdb

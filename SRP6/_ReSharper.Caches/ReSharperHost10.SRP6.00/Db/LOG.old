@@ -1,0 +1,84 @@
+2018/01/20-00:15:57.403 5bc Delete type=3 #1
+2018/01/20-00:16:07.102 3cb4 Level-0 table #5: started
+2018/01/20-00:16:07.622 3cb4 Level-0 table #5: 4300190 bytes OK
+2018/01/20-00:16:07.665 3cb4 Delete type=0 #3
+2018/01/20-00:16:08.907 3cb4 Level-0 table #7: started
+2018/01/20-00:16:09.240 3cb4 Level-0 table #7: 3782369 bytes OK
+2018/01/20-00:16:09.273 3cb4 Delete type=0 #4
+2018/01/20-00:16:09.634 3cb4 Level-0 table #9: started
+2018/01/20-00:16:09.813 3cb4 Level-0 table #9: 3791362 bytes OK
+2018/01/20-00:16:09.865 3cb4 Delete type=0 #6
+2018/01/20-00:16:11.101 3cb4 Level-0 table #11: started
+2018/01/20-00:16:11.419 3cb4 Level-0 table #11: 3875220 bytes OK
+2018/01/20-00:16:11.467 3cb4 Delete type=0 #8
+2018/01/20-00:16:11.996 3cb4 Level-0 table #13: started
+2018/01/20-00:16:12.442 3cb4 Level-0 table #13: 4061173 bytes OK
+2018/01/20-00:16:12.475 3cb4 Delete type=0 #10
+2018/01/20-00:16:12.618 3cb4 Level-0 table #15: started
+2018/01/20-00:16:12.832 3cb4 Level-0 table #15: 3849595 bytes OK
+2018/01/20-00:16:12.872 3cb4 Delete type=0 #12
+2018/01/20-00:16:13.050 3cb4 Level-0 table #17: started
+2018/01/20-00:16:13.284 3cb4 Level-0 table #17: 3697674 bytes OK
+2018/01/20-00:16:13.343 3cb4 Delete type=0 #14
+2018/01/20-00:16:13.850 3cb4 Level-0 table #19: started
+2018/01/20-00:16:14.112 3cb4 Level-0 table #19: 3903235 bytes OK
+2018/01/20-00:16:14.185 3cb4 Delete type=0 #16
+2018/01/20-00:16:14.186 3cb4 Compacting 6@0 + 1@1 files
+2018/01/20-00:16:14.284 3cb4 Generated table #20: 5026 keys, 2159036 bytes
+2018/01/20-00:16:14.500 3cb4 Generated table #21: 4772 keys, 2161788 bytes
+2018/01/20-00:16:14.689 3cb4 Generated table #22: 5966 keys, 2150567 bytes
+2018/01/20-00:16:14.823 3cb4 Generated table #23: 4179 keys, 2171687 bytes
+2018/01/20-00:16:14.955 3cb4 Generated table #24: 3074 keys, 2162918 bytes
+2018/01/20-00:16:15.193 3cb4 Generated table #25: 3696 keys, 2154512 bytes
+2018/01/20-00:16:15.307 3cb4 Generated table #26: 2352 keys, 2182755 bytes
+2018/01/20-00:16:15.430 3cb4 Generated table #27: 2864 keys, 2176489 bytes
+2018/01/20-00:16:15.533 3cb4 Generated table #28: 3436 keys, 2163363 bytes
+2018/01/20-00:16:15.619 3cb4 Generated table #29: 3311 keys, 2164810 bytes
+2018/01/20-00:16:15.814 3cb4 Generated table #30: 3420 keys, 2176224 bytes
+2018/01/20-00:16:15.916 3cb4 Generated table #31: 2426 keys, 2183593 bytes
+2018/01/20-00:16:16.064 3cb4 Generated table #32: 1461 keys, 902948 bytes
+2018/01/20-00:16:16.064 3cb4 Compacted 6@0 + 1@1 files => 26910690 bytes
+2018/01/20-00:16:16.103 3cb4 Delete type=2 #7
+2018/01/20-00:16:16.104 3cb4 Delete type=2 #9
+2018/01/20-00:16:16.106 3cb4 Delete type=2 #11
+2018/01/20-00:16:16.107 3cb4 Delete type=2 #13
+2018/01/20-00:16:16.109 3cb4 Delete type=2 #15
+2018/01/20-00:16:16.110 3cb4 Delete type=2 #17
+2018/01/20-00:16:16.111 3cb4 Delete type=2 #19
+2018/01/20-00:16:16.112 3cb4 compacted to: files[ 0 13 1 0 0 0 0 ]
+2018/01/20-00:16:16.112 3cb4 Expanding@1 1+1 to 13+1
+2018/01/20-00:16:16.112 3cb4 Compacting 13@1 + 1@2 files
+2018/01/20-00:16:16.236 3cb4 Generated table #33: 5188 keys, 2168739 bytes
+2018/01/20-00:16:16.338 3cb4 Generated table #34: 4362 keys, 2165182 bytes
+2018/01/20-00:16:16.460 3cb4 Generated table #35: 5312 keys, 2161824 bytes
+2018/01/20-00:16:16.592 3cb4 Generated table #36: 5441 keys, 2155855 bytes
+2018/01/20-00:16:16.707 3cb4 Generated table #37: 3501 keys, 2177403 bytes
+2018/01/20-00:16:16.860 3cb4 Generated table #38: 3499 keys, 2171788 bytes
+2018/01/20-00:16:16.977 3cb4 Generated table #39: 2985 keys, 2160080 bytes
+2018/01/20-00:16:17.118 3cb4 Generated table #40: 3610 keys, 2157121 bytes
+2018/01/20-00:16:17.269 3cb4 Generated table #41: 2318 keys, 2184605 bytes
+2018/01/20-00:16:17.414 3cb4 Generated table #42: 2979 keys, 2180165 bytes
+2018/01/20-00:16:17.545 3cb4 Generated table #43: 3331 keys, 2161615 bytes
+2018/01/20-00:16:17.647 3cb4 Generated table #44: 3311 keys, 2168623 bytes
+2018/01/20-00:16:17.774 3cb4 Generated table #45: 3478 keys, 2177321 bytes
+2018/01/20-00:16:17.879 3cb4 Generated table #46: 2449 keys, 2178069 bytes
+2018/01/20-00:16:17.947 3cb4 Generated table #47: 1342 keys, 829312 bytes
+2018/01/20-00:16:17.947 3cb4 Compacted 13@1 + 1@2 files => 31197702 bytes
+2018/01/20-00:16:17.982 3cb4 Delete type=2 #5
+2018/01/20-00:16:17.984 3cb4 Delete type=2 #20
+2018/01/20-00:16:17.985 3cb4 Delete type=2 #21
+2018/01/20-00:16:17.986 3cb4 Delete type=2 #22
+2018/01/20-00:16:17.990 3cb4 Delete type=2 #23
+2018/01/20-00:16:17.991 3cb4 Delete type=2 #24
+2018/01/20-00:16:17.992 3cb4 Delete type=2 #25
+2018/01/20-00:16:17.994 3cb4 Delete type=2 #26
+2018/01/20-00:16:17.995 3cb4 Delete type=2 #27
+2018/01/20-00:16:17.996 3cb4 Delete type=2 #28
+2018/01/20-00:16:17.997 3cb4 Delete type=2 #29
+2018/01/20-00:16:17.999 3cb4 Delete type=2 #30
+2018/01/20-00:16:18.000 3cb4 Delete type=2 #31
+2018/01/20-00:16:18.002 3cb4 Delete type=2 #32
+2018/01/20-00:16:18.004 3cb4 compacted to: files[ 0 0 15 0 0 0 0 ]
+2018/01/20-00:16:32.841 3cb4 Level-0 table #49: started
+2018/01/20-00:16:33.236 3cb4 Level-0 table #49: 5737310 bytes OK
+2018/01/20-00:16:33.261 3cb4 Delete type=0 #18
